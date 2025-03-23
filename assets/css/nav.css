@@ -1,0 +1,9 @@
+nav{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+nav > *{
+    border: 1px solid black;
+    padding: 10px 5px;
+}
