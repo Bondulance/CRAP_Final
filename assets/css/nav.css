@@ -1,3 +1,21 @@
+nav{
+    margin: 0px;
+    background-color: #791D8F;
+    color: white;
+}
+body{
+    margin: 0px;
+}
+a{ 
+    color: white;
+    text-decoration: none;
+}
+nav section button{
+    text-decoration: none;
+    background-color: #791D8F;
+    color: white;
+}
+
 h1{
     width: 1440px;
     text-align: center;
