@@ -1,0 +1,51 @@
+/*Main css file for the site*/
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+}
+
+/*Footer CSS*/
+footer {
+    width: 100vw;
+    margin: 0px;
+    padding-top: 10px;
+    background-color: #791D8F;
+    font-size: 0.8em;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #C3F73A;
+    font-weight: 800;
+}
+
+footer h1{
+    font-size: 1.3em;
+}
+
+footer .footer_end {
+    margin-top: 10px;
+    justify-self: center;
+}
+
+@media screen and (max-width: 600px){
+    footer > div {
+        flex-direction: column;
+    }
+
+    .quizzes_footer{
+        margin-left: 20px;
+    }
+}
