@@ -1,9 +1,28 @@
-nav{
-    display: flex;
-    width: fit-content;
+h1{
+    width: 1440px;
+    text-align: center;
     margin: auto;
+    text-emphasis: bold;
 }
-nav > *{
+nav > section{
+    display: flex;
+    width: 1440px;
+    margin: auto;
     border: 1px solid black;
-    padding: 10px 5px;
+}
+nav > section > *{
+    border: 1px solid black;
+    width: 20rem;
+    text-align: center;
+}
+.dropdown{
+
+}
+.dropcont{
+    width: 400px;
+    margin: auto;
+    display: flex;
+}
+.navlinks{
+    padding: 40px;
 }
