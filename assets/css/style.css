@@ -48,4 +48,8 @@ footer .footer_end {
     .quizzes_footer{
         margin-left: 20px;
     }
+
+    .quizzes_footer:first-child {
+        margin-left: 0px;
+    }
 }
