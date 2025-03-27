@@ -1,8 +1,31 @@
 /*Main css file for the site*/
-
 body {
     font-family: "Inter", sans-serif;
     margin: 0px;
+}
+
+main{
+    margin: auto 500px;
+    line-height: 1.6;
+}
+
+main a{
+    text-decoration: none;
+    color:#791D8F;
+    font-weight: bold;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    margin-left: 50px;
+    padding: 10px;
+}
+
+main section{
+    margin-left: 50px;
 }
 
 /*Footer CSS*/
@@ -51,5 +74,9 @@ footer .footer_end {
 
     .quizzes_footer:first-child {
         margin-left: 0px;
+    }
+
+    main{
+        margin: auto 50px;
     }
 }
