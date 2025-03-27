@@ -2,12 +2,8 @@ const question1 = document.getElementById("question1");
 const btn = document.getElementById("submitAnswer");
 const unselect = document.getElementById("unselect");
 const form = document.getElementById("question1form");
-const tracker = document.getElementById("tracker");
 
 var inputs = document.getElementsByTagName("input");
-
-
-
 
 const wrong = "#FFE2E2";
 const correct = "#E7F9C6";
@@ -15,14 +11,14 @@ const correct = "#E7F9C6";
 var warning = document.getElementById("warning");
 const warningNode = document.createTextNode("You must enter in an answer*");
 
-counter = 0;
-const trackerNode = document.createTextNode(counter + "/3 Answered")
-
-
-// tracker js
+let counter = 3;
+const tracker = document.getElementById("tracker");
+let trackerNode = document.createTextNode("Tries: " + counter);
 tracker.appendChild(trackerNode);
+// tracker js
 
 btn.addEventListener("click", function () {
+  console.log(counter);
   console.log(warning);
   console.log("Button Clicked");
   warning.style.display = "none";
@@ -37,11 +33,21 @@ btn.addEventListener("click", function () {
     warning.style.display = "block";
     warning.appendChild(warningNode);
   }
+  tracker.innerText = "Tries: " + counter;
 });
 
-unselect.addEventListener("click", function() {
+unselect.addEventListener("click", function () {
   console.log("Uncheck");
   inputs[0].checked = false;
   inputs[1].checked = false;
   inputs[2].checked = false;
-})
+});
+
+function updateTries() {
+  console.log("activated");
+  counter -= 1;
+  if (counter == 0) {
+    // disables button when there are no tries left
+    btn.disabled = true;
+  }
+}
