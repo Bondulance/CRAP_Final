@@ -1,8 +1,31 @@
 /*Main css file for the site*/
-
 body {
     font-family: "Inter", sans-serif;
     margin: 0px;
+}
+
+main{
+    margin: auto 500px;
+    line-height: 1.6;
+}
+
+main a{
+    text-decoration: none;
+    color:#791D8F;
+    font-weight: bold;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    margin-left: 50px;
+    padding: 10px;
+}
+
+main section{
+    margin-left: 50px;
 }
 
 /*Footer CSS*/
@@ -75,5 +98,9 @@ this is just the smallest the footer can be without looking too weird*/
         padding: 0px;
         height: 20px;
         width: 20px;
+    }
+
+    main{
+        margin: auto 50px;
     }
 }
