@@ -1,9 +1,9 @@
-import { inputs } from "./quiz";
+import { answers } from "./quiz.js";
 
-console.log(inputs);
+console.log(answers);
 class Question1 {
-  constructor(correct) {
-    this.correct = inputs[0];
+  constructor() {
+    this.correct = answers[0];
   }
   get getCorrect() {
     return this.correct;
@@ -11,8 +11,8 @@ class Question1 {
 }
 
 class Question2 {
-  constructor(correct) {
-    this.correct = inputs[1];
+  constructor() {
+    this.correct = answers[1];
   }
   get getCorrect() {
     return this.correct;
@@ -20,10 +20,12 @@ class Question2 {
 }
 
 class Question3 {
-  constructor(correct) {
-    this.correct = inputs[2];
+  constructor() {
+    this.correct = answers[2];
   }
   get getCorrect() {
     return this.correct;
   }
 }
+
+export { Question1, Question2, Question3 };

@@ -1,9 +1,7 @@
-// import { Question1, Question2, Question3 } from "./contrastQuiz";
+import { Question1, Question2, Question3 } from "./contrastQuiz";
 
 const question1 = document.getElementById("question1");
 const btn = document.getElementById("submitAnswer");
-const unselect = document.getElementById("unselect");
-const form = document.getElementById("question1form");
 
 var inputs = document.getElementsByTagName("input");
 
@@ -14,47 +12,58 @@ var warning = document.getElementById("warning");
 
 const warningNode = document.createTextNode("You must enter in an answer*");
 
-let counter = 3;
-const tracker = document.getElementById("tracker");
-let trackerNode = document.createTextNode("Tries: " + counter);
-tracker.appendChild(trackerNode);
-// tracker js
+  let counter = 3;
+  const tracker = document.getElementById("tracker");
+  let trackerNode = document.createTextNode("Tries: " + counter);
+  tracker.appendChild(trackerNode);
+
+
+const qOne = new Question1();
+const qTwo = new Question2();
+const qThree = new Question3();
 
 btn.addEventListener("click", function () {
+
   console.log(counter);
   console.log(warning);
   console.log("Button Clicked");
   warning.style.display = "none";
 
-  if (inputs[0].checked) {
-    question1.style.backgroundColor = correct;
-  } else if (inputs[1].checked) {
-    question1.style.backgroundColor = wrong;
-  } else if (inputs[2].checked) {
-    question1.style.backgroundColor = wrong;
-  } else {
+  //searches through what the user selected from the inputs.
+  let givenAnswer = Array.from(inputs).find(input => inputs.checked);
+ 
+  if (!givenAnswer) {
+    // if no given answer
     warning.style.display = "block";
-    warning.appendChild(warningNode);
+    if (!warning.hasChildNodes()) {
+      // makes it easier to manage the text node, ensures no duplication
+      warning.appendChild(warningNode);
+    }
+    // have to get out of if loop to validate answer below.
+    return;
   }
-  tracker.innerText = "Tries: " + counter;
 
-  // console.log(Question1);
-  // console.log(Question2);
-  // console.log(Question3);
-});
+  if (givenAnswer.value === qOne.getCorrect) {
+    console.log(qOne.getCorrect)
+    // using the getter from my Question1 class, bless up JS OOP, java has corrupted my mind
+    question1.style.backgroundColor = correct;
+  } else {
+    question1.style.backgroundColor = wrong;
+  }
 
-unselect.addEventListener("click", function () {
-  console.log("Uncheck");
-  inputs[0].checked = false;
-  inputs[1].checked = false;
-  inputs[2].checked = false;
+  updateTries();
+
 });
 
 function updateTries() {
   console.log("activated");
   counter -= 1;
+  tracker.innerText = "Tries: " + counter;
   if (counter == 0) {
     // disables button when there are no tries left
     btn.disabled = true;
   }
 }
+
+
+export const answers = [inputs[0], inputs[1], inputs[2]];

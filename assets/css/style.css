@@ -2,6 +2,13 @@
 body {
     font-family: "Inter", sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 main{
