@@ -1,3 +1,5 @@
+// import { Question1, Question2, Question3 } from "./contrastQuiz";
+
 const question1 = document.getElementById("question1");
 const btn = document.getElementById("submitAnswer");
 const unselect = document.getElementById("unselect");
@@ -9,6 +11,7 @@ const wrong = "#FFE2E2";
 const correct = "#E7F9C6";
 // input control
 var warning = document.getElementById("warning");
+
 const warningNode = document.createTextNode("You must enter in an answer*");
 
 let counter = 3;
@@ -34,6 +37,10 @@ btn.addEventListener("click", function () {
     warning.appendChild(warningNode);
   }
   tracker.innerText = "Tries: " + counter;
+
+  // console.log(Question1);
+  // console.log(Question2);
+  // console.log(Question3);
 });
 
 unselect.addEventListener("click", function () {
