@@ -14,6 +14,10 @@ footer {
     font-size: 0.8em;
 }
 
+footer h1{
+    font-size: 1.3em;
+}
+
 footer > div {
     display: flex;
     justify-content: space-between;
@@ -31,15 +35,29 @@ footer a:hover {
     font-weight: 800;
 }
 
-footer h1{
-    font-size: 1.3em;
+.quiz_head {
+    display: inline-flex;
+    align-items: center;
 }
 
-footer .footer_end {
+.footer_arrow {
+    position: relative;
+    top: -1px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+.footer_end {
     margin-top: 10px;
+    padding-bottom: 10px;
     justify-self: center;
 }
 
+/*moblie: feel free to make this wider if needed
+this is just the smallest the footer can be without looking too weird*/
 @media screen and (max-width: 600px){
     footer > div {
         flex-direction: column;
