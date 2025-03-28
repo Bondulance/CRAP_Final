@@ -1,13 +1,13 @@
 //js for footer
 function buttonToggle() {
-    var paragraph = document.getElementById('q');
-    if (paragraph.style.display == 'none') {
-        paragraph.style.display = 'block';
+    var linkBlock = document.getElementById('q');
+    if (linkBlock.style.display == 'none') {
+        linkBlock.style.display = 'block';
     }
-    else if (paragraph.style.display == 'block') {
-        paragraph.style.display = 'none';
+    else if (linkBlock.style.display == 'block') {
+        linkBlock.style.display = 'none';
     }
     else {
-        paragraph.style.display = 'block';
+        linkBlock.style.display = 'block';
     }
 }

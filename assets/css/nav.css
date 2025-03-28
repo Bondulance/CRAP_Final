@@ -1,47 +1,107 @@
-nav{
-    margin: 0px;
-    background-color: #791D8F;
-    color: white;
-}
 body{
     margin: 0px;
     font-family: "Inter", sans-serif;
+    font-size: 16px;
 }
-a{ 
+
+header h1{
+    /* width: 1440px;
+    text-align: center;
+    margin: auto;
+    text-emphasis: bold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #3E0D49;
+    font-size: 2em;
     color: white;
-    text-decoration: none;
+    padding-bottom: 15px;
 }
-nav section button{
-    text-decoration: none;
-    background-color: #791D8F;
+
+header h1, nav {
+    width: 100vw;
+    margin: 0px;
+}
+
+nav{
+    margin: 0px;
+    background-color: #3E0D49;
     color: white;
 }
 
-h1{
-    width: 1440px;
-    text-align: center;
-    margin: auto;
-    text-emphasis: bold;
-}
 nav > section{
-    display: flex;
+    /* display: flex;
     width: 1440px;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid black; */
+    position: relative;
+    top: -2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3E0D49;
+    margin: 0px;
 }
+
+nav > section button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #3E0D49;
+    text-decoration: underline;
+    color: black;
+    border: none;
+}
+
+nav > section button a{
+    font-family: "Inter", sans-serif;
+    font-size: 1.2em;
+    margin: 0px 10px;
+}
+
 nav > section > *{
-    border: 1px solid black;
     width: 20rem;
     text-align: center;
 }
-.dropdown{
 
+a{ 
+    color: white;
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+
+a:hover { 
+    color: black;
+    background-color: #C3F73A;
+}
+
+button:hover {
+    background-color: #C3F73A;
+}
+
+#dropdown{
+    background-color: #791D8F;
+    display: none;
 }
 .dropcont{
     width: 400px;
     margin: auto;
     display: flex;
 }
+
 .navlinks{
     padding: 40px;
 }
+
+/* .arrow {
+    display: inline;
+    position: relative;
+    top: 1px;
+    right: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+} */
