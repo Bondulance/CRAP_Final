@@ -18,8 +18,12 @@ main{
 
 main a{
     text-decoration: none;
-    color:#791D8F;
+    color:blue;
     font-weight: bold;
+}
+
+h1, h2{
+    color: #791D8F;
 }
 
 ul{
