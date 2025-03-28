@@ -99,12 +99,12 @@ this is just the smallest the footer can be without looking too weird*/
     .footer_arrow {
         display: inline;
         position: relative;
-        top: -1px;
+        top: 1px;
         background-color: rgba(255, 255, 255, 0);
-        border: none;
+        border: black 2px solid;
         padding: 0px;
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
     }
 
     main{
