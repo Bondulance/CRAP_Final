@@ -80,18 +80,37 @@ button:hover {
     background-color: #C3F73A;
 }
 
+button:hover a{
+    color: black;
+}
+
 #dropdown{
     background-color: #791D8F;
     display: none;
+    width: 100vw;
+    position: absolute;
 }
 .dropcont{
-    width: 400px;
-    margin: auto;
+    width: 800px;
+    margin: 0px 0px 0px 300px;
     display: flex;
 }
 
 .navlinks{
-    padding: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px;
+}
+.navlinks a{
+    width: 150px;
+    margin: 2px 0px;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+.navtext{
+    margin: 30px 10px;
+    width: 250px;
 }
 
 /* .arrow {
