@@ -87,6 +87,8 @@ button:hover a{
 #dropdown{
     background-color: #791D8F;
     display: none;
+    width: 100vw;
+    position: absolute;
 }
 .dropcont{
     width: 800px;
@@ -103,7 +105,8 @@ button:hover a{
 .navlinks a{
     width: 150px;
     margin: 2px 0px;
-    padding-left: 100px;
+    margin-left: 100px;
+    padding-left: 10px;
 }
 .navtext{
     margin: 30px 10px;
