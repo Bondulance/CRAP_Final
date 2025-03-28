@@ -75,20 +75,23 @@ footer a:hover {
     justify-self: center;
 }
 
+/*tablet screens*/
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    main{
+        margin: auto 150px;
+    }
+}
+
 /*moblie: feel free to make this wider if needed
 this is just the smallest the footer can be without looking too weird*/
 @media screen and (max-width: 600px){
+    main{
+        margin: auto 50px;
+    }
+
     /*Footer CSS*/
     footer > div {
         flex-direction: column;
-    }
-
-    .quizzes_footer:first-child {
-        margin-left: 0px;
-    }
-
-    .quizzes_footer{
-        margin-left: 20px;
     }
 
     .quiz_head {
@@ -101,18 +104,14 @@ this is just the smallest the footer can be without looking too weird*/
         position: relative;
         top: 1px;
         background-color: rgba(255, 255, 255, 0);
-        border: black 2px solid;
+        border: none;
         padding: 0px;
         height: 30px;
         width: 30px;
     }
 
-    main{
-        margin: auto 50px;
-    }
-}
-@media screen and (min-width: 600px) and (max-width: 1024px){
-    main{
-        margin: auto 150px;
+    #q{
+        display: none;
+        margin-left: 20px;
     }
 }
