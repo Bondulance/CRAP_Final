@@ -89,13 +89,25 @@ button:hover a{
     display: none;
 }
 .dropcont{
-    width: 400px;
-    margin: auto;
+    width: 800px;
+    margin: 0px 0px 0px 300px;
     display: flex;
 }
 
 .navlinks{
-    padding: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px;
+}
+.navlinks a{
+    width: 150px;
+    margin: 2px 0px;
+    padding-left: 100px;
+}
+.navtext{
+    margin: 30px 10px;
+    width: 250px;
 }
 
 /* .arrow {
