@@ -71,7 +71,7 @@ a{
     padding: 10px 0px;
 }
 
-a:hover { 
+nav > section a:hover { 
     color: black;
     background-color: #C3F73A;
 }
