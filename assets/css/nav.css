@@ -80,6 +80,10 @@ button:hover {
     background-color: #C3F73A;
 }
 
+button:hover a{
+    color: black;
+}
+
 #dropdown{
     background-color: #791D8F;
     display: none;
