@@ -22,7 +22,7 @@ main a{
     font-weight: bold;
 }
 
-h1, h2{
+main h1, main h2{
     color: #791D8F;
 }
 
@@ -37,6 +37,20 @@ li{
 
 main section{
     margin-left: 50px;
+}
+
+.mainPages_hero {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+}
+
+.title {
+    z-index: 2;
+    color: green;
+    display: flex;
+    margin: 0px;
+    font-size: 20vh;
 }
 
 /*Footer CSS*/
