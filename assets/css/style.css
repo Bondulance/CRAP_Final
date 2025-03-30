@@ -39,18 +39,26 @@ main section{
     margin-left: 50px;
 }
 
+.hero {
+    border: black solid 3px;
+}
+
 .mainPages_hero {
-    position: absolute;
-    z-index: 1;
     width: 100vw;
 }
 
 .title {
-    z-index: 2;
-    color: green;
     display: flex;
+    justify-self: center;
+    color: white;
+    font-size: 10vw;
     margin: 0px;
-    font-size: 20vh;
+    position: absolute;
+    top: 50px;
+}
+
+#proximity_title {
+    left: 24%;
 }
 
 /*Footer CSS*/
