@@ -1,31 +1,83 @@
-import { answers } from "./quiz.js";
+const q1 = document.getElementById("question1");
+const q2 = document.getElementById("question2");
+const q3 = document.getElementById("question3");
 
-console.log(answers);
-class Question1 {
-  constructor() {
-    this.correct = answers[0];
-  }
-  get getCorrect() {
-    return this.correct;
-  }
-}
+const q1form = document.getElementById("question1form"); 
+const q2form = document.getElementById("question2form"); 
+const q3form = document.getElementById("question3form"); 
 
-class Question2 {
-  constructor() {
-    this.correct = answers[1];
-  }
-  get getCorrect() {
-    return this.correct;
-  }
-}
+const wrong = "#FFE2E2";
+const correct = "#E7F9C6";
 
-class Question3 {
-  constructor() {
-    this.correct = answers[2];
-  }
-  get getCorrect() {
-    return this.correct;
-  }
-}
+const btn = document.getElementById("submitAnswer")
+var warning1 = document.getElementById("warning1");
+var warning2 = document.getElementById("warning2");
+var warning3 = document.getElementById("warning3");
 
-export { Question1, Question2, Question3 };
+
+
+// Question 1 area
+var q1Inputs = q1form.querySelectorAll('input[type="radio"]');
+console.log(q1Inputs)
+
+
+// Question 2 area
+var q2Inputs = q2form.querySelectorAll('input[type="radio"]');
+console.log(q2Inputs)
+
+
+// Question 3 area
+var q3Inputs = q3form.querySelectorAll('input[type="radio"]');
+console.log(q3Inputs)
+
+
+btn.addEventListener("click", function() {
+  let q1Answered = false;
+  let q2Answered = false;
+  let q3Answered = false;
+
+  warning1.textContent = "";
+  warning2.textContent = "";
+  warning3.textContent = "";
+
+
+  q1Inputs.forEach(input => {
+    if (input.checked) q1Answered = true;
+    if (q1Inputs[0].checked) {
+      q1.style.backgroundColor = correct;
+    } else {
+      q1.style.backgroundColor = wrong;
+    }
+  })
+  if (!q1Answered) {
+    warning1.textContent = "You Must enter in an Answer.";
+  }
+
+
+
+
+  q2Inputs.forEach(input => {
+    if (input.checked) q2Answered = true;
+    if (q2Inputs[0].checked) {
+      q2.style.backgroundColor = correct;
+    } else {
+      q2.style.backgroundColor = wrong;
+    }
+  })
+  if (!q2Answered) {
+    warning2.textContent = "You Must enter in an Answer.";
+  }
+
+
+  q3Inputs.forEach(input => {
+    if (input.checked) q3Answered = true;
+    if (q3Inputs[0].checked) {
+      q3.style.backgroundColor = correct;
+    } else {
+      q3.style.backgroundColor = wrong;
+    }
+  })
+  if (!q3Answered) {
+    warning3.textContent = "You Must enter in an Answer.";
+  }
+})
