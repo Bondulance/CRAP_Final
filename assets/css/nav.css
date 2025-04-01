@@ -108,6 +108,12 @@ button:hover a{
     margin-left: 100px;
     padding-left: 10px;
 }
+
+.navlinks a:hover{
+    color: #C3F73A;
+    font-weight: 900;
+}
+
 .navtext{
     margin: 30px 10px;
     width: 250px;
