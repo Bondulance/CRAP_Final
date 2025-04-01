@@ -14,6 +14,9 @@ var warning1 = document.getElementById("warning1");
 var warning2 = document.getElementById("warning2");
 var warning3 = document.getElementById("warning3");
 
+var tracker = document.getElementById("tracker");
+var counter = 3;
+
 
 
 // Question 1 area
@@ -30,6 +33,9 @@ console.log(q2Inputs)
 var q3Inputs = q3form.querySelectorAll('input[type="radio"]');
 console.log(q3Inputs)
 
+//tracker functionality
+
+tracker.textContent = "Tries: " + counter;
 
 btn.addEventListener("click", function() {
   let q1Answered = false;
@@ -81,3 +87,23 @@ btn.addEventListener("click", function() {
     warning3.textContent = "You Must enter in an Answer.";
   }
 })
+
+function trackerDecrement() {
+  let q1Answered = false;
+  let q2Answered = false;
+  let q3Answered = false;
+
+  q1Inputs.forEach(input => { if (input.checked) q1Answered = true;})
+  q2Inputs.forEach(input => { if (input.checked) q2Answered = true;})
+  q3Inputs.forEach(input => { if (input.checked) q3Answered = true;})
+
+  if (q1Answered && q2Answered && q3Answered) {
+    console.log("Everything answered")
+    counter--;
+    console.log(counter)
+  }
+  tracker.textContent = "Tries: " + counter
+  if (counter == 0) {
+    btn.disabled = true;
+  }
+}
