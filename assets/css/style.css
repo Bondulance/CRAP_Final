@@ -16,6 +16,12 @@ main{
     line-height: 1.6;
 }
 
+main img {
+    border: 1px solid blueviolet; /*FOR TESTING*/
+    justify-self: center;
+    width: 70vw;
+}
+
 main a{
     text-decoration: none;
     color:rgb(20, 139, 168);
@@ -50,15 +56,9 @@ main section{
 .title {
     display: flex;
     justify-self: center;
-    color: white;
+    color: green;
     font-size: 10vw;
-    margin: 0px;
-    position: absolute;
-    top: 50px;
-}
-
-#proximity_title {
-    left: 24%;
+    align-self: center;
 }
 
 /*Footer CSS*/
