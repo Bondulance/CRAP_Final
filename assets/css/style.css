@@ -6,6 +6,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.Lfloat{
+    float: left;
+}
+.Rfloat{
+    float: right;
+}
 
 html {
     scroll-behavior: smooth;
