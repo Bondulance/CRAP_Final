@@ -8,6 +8,12 @@ body {
     text-align: center;
 }
 
+.gradient {
+    background: rgb(0,0,0,0);
+    background: linear-gradient(180deg, rgba(0,50,113,0) 2%, rgba(0,50,113,0) 20%, rgba(252,176,69,0) 43%);
+    z-index: 2;
+}
+
 .under{
     background-color: #791D8F;
     width: 100%;
