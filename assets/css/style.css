@@ -58,6 +58,10 @@ body {
     padding-top: 50px;
 }
 
+.introHead{
+    display: none;
+}
+
 .Rfloat{
     float: right;
     width: 450px;
@@ -173,8 +177,10 @@ footer a:hover {
     display: none;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px){}
+
 /*tablet screens*/
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 900px) and (max-width: 1440px){
     main{
         margin: auto 150px;
     }
@@ -198,9 +204,22 @@ footer a:hover {
 
 /*moblie: feel free to make this wider if needed
 this is just the smallest the footer can be without looking too weird*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     main{
         margin: auto 50px;
+    }
+
+    .introHead{
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 70%;
+        right: 0;
+        color: white;
+        font-weight: 250;
+        font-size: 25px;
+        padding-top: 50px;
+        margin: auto 65px;
     }
 
     .reverseContent{
@@ -209,7 +228,6 @@ this is just the smallest the footer can be without looking too weird*/
 
     .content{
         flex-direction: column;
-        margin-bottom: 0;
     }
 
     .burger{
@@ -228,22 +246,19 @@ this is just the smallest the footer can be without looking too weird*/
     }
 
     .intro{
-        position: absolute;
-        bottom: 45%;
-        right: 0;
-        color: white;
+        display: none;
     }
 
     .CRAP{
-        position: absolute;
-        bottom: 67%;
-        right: 18%;
+        position: relative;
+        bottom: 20%;
+        right: 0;
     }
 
     .CRAP2{
-        position: absolute;
-        bottom: 69%;
-        right: 21%;
+        position: relative;
+        top: 22%;
+        right: 0.5%;
     }
 
     .burger{
