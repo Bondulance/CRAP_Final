@@ -24,8 +24,20 @@ body {
 
 .CRAP{
     position: relative;
-    right: 15%;
-    top: 1%;
+    right: 18%;
+    bottom: 135%;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.CRAP2{
+    position: relative;
+    right: 18%;
+    bottom: 185%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
 }
 
 .Lfloat{
@@ -40,7 +52,7 @@ body {
     padding: 50px 0;
 }
 
-main h3{
+.intro{
     font-weight: 250;
     font-size: 25px;
     padding-top: 50px;
@@ -157,18 +169,29 @@ footer a:hover {
     justify-self: center;
 }
 
+.burger{
+    display: none;
+}
+
 /*tablet screens*/
 @media screen and (min-width: 600px) and (max-width: 1024px){
     main{
         margin: auto 150px;
     }
 
-    .reverseContent{
-        flex-direction: column-reverse;
+    .CRAP, .CRAP2{
+        right: 22%;
     }
 
-    .content{
-        flex-direction: column;
+    .intro{
+        margin-top: 50px;
+    }
+
+    .Lfloat, .Rfloat{
+        float: none;
+        margin: 30px;
+        width: 300px;
+        height: 200px;
     }
 
 }
@@ -186,22 +209,63 @@ this is just the smallest the footer can be without looking too weird*/
 
     .content{
         flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .burger{
+        display: block;
+        width: 75px;
+        height: 75px;
+        background-color: #791D8F;
+        border: none;
     }
 
     .under{
         mix-blend-mode: lighten;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+
+    .intro{
+        position: absolute;
+        bottom: 45%;
+        right: 0;
+        color: white;
+    }
+
+    .CRAP{
+        position: absolute;
+        bottom: 67%;
+        right: 18%;
+    }
+
+    .CRAP2{
+        position: absolute;
+        bottom: 69%;
+        right: 21%;
+    }
+
+    .burger{
+        position: absolute;
     }
 
     .logo{
-        position: inherit;
+        position: relative;
         width: 100%;
+        left: 0;
+        bottom: 10%;
     }
 
     .Lfloat, .Rfloat{
         float: none;
-        margin: 10px auto;
+        margin: 30px auto;
         width: 300px;
         height: 200px;
+    }
+
+    .topic{
+        padding-top: 140px;
     }
 
     /*Footer CSS*/
