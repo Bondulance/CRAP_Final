@@ -15,12 +15,6 @@ body {
     z-index: -1;
 }
 
-.gradient {
-    background: rgb(0,50,113);
-    background: linear-gradient(180deg, rgba(0,50,113,1) 2%, rgba(0,50,113,0.4542191876750701) 20%, rgba(252,176,69,0) 43%);
-    z-index: 2;
-}
-
 .under{
     background-color: #791D8F;
     width: 100%;
@@ -225,7 +219,7 @@ this is just the smallest the footer can be without looking too weird*/
         display: block;
         text-align: center;
         position: relative;
-        top: 70%;
+        top: 60%;
         right: 0;
         color: white;
         font-weight: 250;
@@ -246,15 +240,15 @@ this is just the smallest the footer can be without looking too weird*/
         display: block;
         width: 75px;
         height: 75px;
-        background-color: #791D8F;
         border: none;
+        background-color: inherit;
     }
 
     .under{
-        mix-blend-mode: lighten;
+        background-image: linear-gradient(#791D8F, #f8cafc 65%);
         display: flex;
         flex-direction: column-reverse;
-        height: 700px;
+        height: 800px;
     }
 
     .intro{
@@ -263,13 +257,13 @@ this is just the smallest the footer can be without looking too weird*/
 
     .CRAP{
         position: relative;
-        bottom: 20%;
+        bottom: 23%;
         right: 0;
     }
 
     .CRAP2{
         position: relative;
-        top: 22%;
+        top: 14%;
         right: 0.5%;
     }
 
@@ -282,6 +276,8 @@ this is just the smallest the footer can be without looking too weird*/
         width: 100%;
         left: 0;
         bottom: 10%;
+        padding-bottom: 50px;
+        background-color: #f8cafc;
     }
 
     .Lfloat, .Rfloat{
