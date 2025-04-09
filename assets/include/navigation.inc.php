@@ -21,7 +21,7 @@
                 <a href="#">Contrast</a>
                 <a href="#">Repetition</a>
                 <a href="#">Alignment</a>
-                <a href="#">Proximity</a>
+                <a href="proximity.php">Proximity</a>
                 <button onclick="navButtonToggle()" class="arrow"><a href="#">Quizzes</a><img src="assets/pictures/arrowDown_white.svg"></button>
             </section>
             <div id="dropdown">
@@ -34,10 +34,10 @@
                         </p>
                     </section>
                     <section class="navlinks">
-                        <a href="./ContrastQuiz.php">Contrast Quiz</a>
-                        <a href="./RepetitionQuiz.php">Repetition Quiz</a>
-                        <a href="./AlignmentQuiz.php">Alignment Quiz</a>
-                        <a href="./ProximityQuiz.php">Proximity Quiz</a>
+                        <a href="ContrastQuiz.php">Contrast Quiz</a>
+                        <a href="RepetitionQuiz.php">Repetition Quiz</a>
+                        <a href="AlignmentQuiz.php">Alignment Quiz</a>
+                        <a href="ProximityQuiz.php">Proximity Quiz</a>
                     </section>
                 </div>
             </div>

@@ -150,15 +150,15 @@ function buttonToggle() {
 
 // TRACKER.JS BEGIN
 
-let counter1 = 3;
-const tracker1 = document.getElementById("tracker");
-let trackerNode = document.createTextNode("Tries: " + counter1);
-tracker1.appendChild(trackerNode);
+let counterone = 3;
+const trackerone = document.getElementById("tracker");
+let trackerNode = document.createTextNode("Tries: " + counterone);
+trackerone.appendChild(trackerNode);
 
 function updateTries() {
     console.log("activated");
-    counter1 -= 1;
-    if (counter1 == 0) {
+    counterone -= 1;
+    if (counterone == 0) {
       // disables button when there are no tries left
       btn.disabled = true;
     }
