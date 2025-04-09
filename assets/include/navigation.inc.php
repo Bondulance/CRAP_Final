@@ -22,7 +22,7 @@
                 <a href="#">Repetition</a>
                 <a href="#">Alignment</a>
                 <a href="#">Proximity</a>
-                <button onclick="buttonToggle()" class="arrow"><a href="#">Quizzes</a><img src="assets/pictures/arrowDown_white.svg"></button>
+                <button onclick="navButtonToggle()" class="arrow"><a href="#">Quizzes</a><img src="assets/pictures/arrowDown_white.svg"></button>
             </section>
             <div id="dropdown">
                 <div class="dropcont">
