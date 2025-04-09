@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/nav.css">
-    <script src="./assets/js/nav.js" defer></script>
+    <link rel="stylesheet" href="assets/css/FINAL_STYLES_TEST.css">
+    <script src="./assets/js/FINAL_SCRIPT_TEST.js" defer></script>
     <title><?php echo $pageTitle?></title>
 </head>
 <body>
@@ -34,12 +34,11 @@
                         </p>
                     </section>
                     <section class="navlinks">
-                        <a href="./ContrastQuiz.html">Contrast Quiz</a>
-                        <a href="./RepetitionQuiz.html">Repetition Quiz</a>
-                        <a href="./AlignmentQuiz.html">Alignment Quiz</a>
-                        <a href="./ProximityQuiz.html">Proximity Quiz</a>
+                        <a href="./ContrastQuiz.php">Contrast Quiz</a>
+                        <a href="./RepetitionQuiz.php">Repetition Quiz</a>
+                        <a href="./AlignmentQuiz.php">Alignment Quiz</a>
+                        <a href="./ProximityQuiz.php">Proximity Quiz</a>
                     </section>
                 </div>
             </div>
         </nav>
-    </header>
