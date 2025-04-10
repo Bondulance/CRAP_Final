@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <script src="assets/js/script.js" defer></script>
-        <title>Good vs Bad</title>
-    </head>
-
-    <body>
-        <header>
-            <!--Nav and logo thing on top-->
+<?php
+    $pageTitle = 'Homepage';
+    include('./assets/include/navigation.inc.php');
+?>
         </header>
         <section class="hero">
             <h1 id="goodBad_title" class="title">GOOD VS BAD</h1>

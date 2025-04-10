@@ -1,0 +1,498 @@
+
+
+/* BEGIN STYLE */
+
+
+/*Main css file for the site*/
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#home_img { /*the img in question*/
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.under{
+    background-color: #791D8F;
+    width: 100%;
+    height: 250px;
+}
+
+.logo{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    left: 25%;
+    top: 15%;
+}
+
+.CRAP{
+    position: relative;
+    right: 18%;
+    bottom: 135%;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.CRAP2{
+    position: relative;
+    right: 18%;
+    bottom: 185%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.Lfloat{
+    float: left;
+    width: 450px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+.topic{
+    font-size: 50px;
+    padding: 50px 0;
+}
+
+.intro{
+    font-weight: 250;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.introHead{
+    display: none;
+}
+
+.Rfloat{
+    float: right;
+    width: 450px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.content, .reverseContent{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.content p, .reverseContent p{
+    margin: auto;
+}   
+
+html {
+    scroll-behavior: smooth;
+}
+
+main{
+    margin: auto 25vw;
+    line-height: 1.6;
+}
+
+main img {
+    border: 1px solid blueviolet; /*FOR TESTING*/
+    justify-self: center;
+    width: 70vw;
+}
+
+main a{
+    text-decoration: none;
+    color:rgb(20, 139, 168);
+    font-weight: bold;
+}
+
+main h1, main h2{
+    color: #791D8F;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    margin-left: 50px;
+    padding: 10px;
+}
+
+/* main section{
+    margin-left: 50px;
+} */
+
+.hero {
+    border: black solid 3px;
+}
+
+.mainPages_hero {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-self: center;
+    color: green;
+    font-size: 10vw;
+    align-self: center;
+}
+
+/*Footer CSS*/
+footer {
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    background-color: #791D8F;
+    font-size: 0.8em;
+}
+
+footer h1{
+    font-size: 1.3em;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5vw;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #C3F73A;
+    font-weight: 800;
+}
+
+.footer_arrow {
+    display: none;  /*hiding arrow on desktop*/
+}
+
+.footer_end {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    justify-self: center;
+}
+
+.burger{
+    display: none;
+}
+
+/*tablet screens*/
+@media screen and (min-width: 900px) and (max-width: 1500px){
+    main{
+        margin: auto 115px;
+    }
+
+    .CRAP, .CRAP2{
+        right: 22%;
+    }
+
+    .intro{
+        margin-top: 50px;
+    }
+
+    .Lfloat, .Rfloat{
+        width: 300px;
+        height: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+}
+
+/*moblie: feel free to make this wider if needed
+this is just the smallest the footer can be without looking too weird*/
+@media screen and (max-width: 900px){
+    main{
+        margin: auto 50px;
+    }
+
+    .introHead{
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 60%;
+        right: 0;
+        color: white;
+        font-weight: 250;
+        font-size: 25px;
+        padding-top: 50px;
+        margin: auto 65px;
+    }
+
+    .reverseContent{
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .burger{
+        display: block;
+        width: 75px;
+        height: 75px;
+        border: none;
+        background-color: inherit;
+    }
+
+    .under{
+        background-image: linear-gradient(#791D8F, #f8cafc 65%);
+        display: flex;
+        flex-direction: column-reverse;
+        height: 800px;
+    }
+
+    .intro{
+        display: none;
+    }
+
+    .CRAP{
+        position: relative;
+        bottom: 23%;
+        right: 0;
+    }
+
+    .CRAP2{
+        position: relative;
+        top: 14%;
+        right: 0.5%;
+    }
+
+    .burger{
+        position: absolute;
+    }
+
+    .logo{
+        position: relative;
+        width: 100%;
+        left: 0;
+        bottom: 10%;
+        padding-bottom: 50px;
+        background-color: #f8cafc;
+    }
+
+    .Lfloat, .Rfloat{
+        float: none;
+        margin: 30px auto;
+        width: 300px;
+        height: 200px;
+    }
+
+    .topic{
+        padding-top: 140px;
+    }
+
+    /*Footer CSS*/
+    footer > div {
+        flex-direction: column;
+    }
+
+    .quiz_head {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .footer_arrow {
+        display: inline;
+        position: relative;
+        top: 1px;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        padding: 0px;
+        height: 30px;
+        width: 30px;
+    }
+
+    #q{
+        display: none;
+        margin-left: 20px;
+    }
+}
+
+/* END STYLE */
+
+
+
+
+/* BEGIN NAV */
+
+nav body{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+header h1{
+    /* width: 1440px;
+    text-align: center;
+    margin: auto;
+    text-emphasis: bold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #3E0D49;
+    font-size: 2em;
+    color: white;
+    padding: 15px 0px;
+}
+
+header h1, nav {
+    width: 100vw;
+    margin: 0px;
+}
+
+nav{
+    margin: 0px;
+    background-color: #3E0D49;
+    color: white;
+}
+
+nav > section{
+    /* display: flex;
+    width: 1440px;
+    margin: auto;
+    border: 1px solid black; */
+    position: relative;
+    top: -2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3E0D49;
+    margin: 0px;
+}
+
+nav > section button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #3E0D49;
+    text-decoration: underline;
+    color: black;
+    border: none;
+}
+
+nav > section button a{
+    font-family: "Inter", sans-serif;
+    font-size: 1.2em;
+    margin: 0px 10px;
+}
+
+nav > section > *{
+    width: 20rem;
+    text-align: center;
+}
+
+nav a{ 
+    color: white;
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+
+nav > section a:hover { 
+    color: black;
+    background-color: #C3F73A;
+}
+
+button:hover {
+    background-color: #C3F73A;
+}
+
+button:hover a{
+    color: black;
+}
+
+#dropdown{
+    background-color: #791D8F;
+    display: none;
+    width: 100vw;
+    position: absolute;
+}
+.dropcont{
+    width: 50%;
+    margin: 0px 0px 0px 10%;
+    display: flex;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    padding-left: 20%;
+}
+.navlinks a{
+    width: 125px;
+    margin: 2px 0px;
+}
+
+.navlinks a:hover{
+    color: #C3F73A;
+    font-weight: 900;
+}
+
+.navtext{
+    margin: 30px 10px;
+    width: 250px;
+    min-width: 249px;
+}
+
+/* .arrow {
+    display: inline;
+    position: relative;
+    top: 1px;
+    right: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+} */
+
+
+/* END NAV */
+
+
+
+
+/* BEGIN QUIZ */
+
+/* Bodhi Woll, this is css for quiz test. When finalized, it will be combined to styles. */
+/* Do not add code here */
+
+.question {
+    background: #efefef;
+    border-radius: 1rem;
+    padding: 15px;
+  }
+.quiz > body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Inter;
+  }
+  .quiz > h2 {
+    font-family: Inter;
+  }
+  .quiz > body {
+    font-family: inter;
+  }
+  #warning {
+    color: red;
+  }
+  
+
+/* END QUIZ */
