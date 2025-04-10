@@ -140,6 +140,19 @@ li{
     align-self: center;
 }
 
+/*Proximity*/
+/*The proximity page - and now thinking of it, most of the pages - need a diffent margin and justify in their mains*/
+/*can't see anything so im doing this blind atp, need to check if this actually works later*/
+#prox_page main {
+    margin: 20px 60px;
+    justify-content: flex-start;
+    justify-self: center;
+}
+
+#prox_page img {
+    width: 25vw;
+}
+
 /*Footer CSS*/
 footer {
     width: 100%;
