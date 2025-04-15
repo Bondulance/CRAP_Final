@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -12,11 +12,10 @@
 
     <body>
         <header>
-            Nav and logo thing on top -->
-<?php
-    $pageTitle = 'Homepage';
-    include('./assets/include/navigation.inc.php');
-?>
+            <?php
+                $pageTitle = 'Homepage';
+                include('./assets/include/navigation.inc.php');
+            ?>
              <button class="burger">
                 <img src="assets/pictures/menuHamburger.svg">
             </button>
@@ -70,7 +69,7 @@
                 <p><a href="#">Contrast</a></p>
                 <p><a href="#">Repetition</a></p>
                 <p><a href="#">Allignment</a></p>
-                <p><a href="#">Proximity</a></p>
+                <p><a href="proximity.php">Proximity</a></p>
                 <div class="quiz_section">
                     <div class="quiz_head">
                         <p><a href="#">Quizzes</a></p>

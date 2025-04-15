@@ -21,6 +21,17 @@ body {
     height: 250px;
 }
 
+.repHero{
+    border: 3px solid black;
+    background-image: url('/assets/pictures/repetition_hero.svg');
+    width: 100%;
+    height: 250px;
+}
+
+.center{
+    margin: auto;
+}
+
 .logo{
     position: relative;
     width: 450px;
