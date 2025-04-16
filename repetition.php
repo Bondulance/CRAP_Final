@@ -20,10 +20,8 @@
                 <img src="assets/pictures/menuHamburger.svg">
             </button>
 
-            <div class="repHero">
-                <p class="center">
-                    REPETITION
-                </p>
+            <div id="rep_hero" class="hero">
+                <h1 class="title">REPETITION</h1>
             </div>
         </header>
 

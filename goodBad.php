@@ -3,9 +3,9 @@
     include('./assets/include/navigation.inc.php');
 ?>
         </header>
-        <section class="hero">
-            <h1 id="goodBad_title" class="title">GOOD VS BAD</h1>
-            <img class="mainPages_hero" src="assets/pictures/goodBad_hero.svg" alt="one set of boxes neatly aligned next to another set that looks scattered">
+        <section id="gb_hero" class="hero">
+            <h1 class="title">GOOD VS BAD</h1>
+            <!-- <img class="mainPages_hero" src="assets/pictures/goodBad_hero.svg" alt="one set of boxes neatly aligned next to another set that looks scattered"> -->
         </section>
         <main>
             <h2>[INSERT SUBHEADING HERE PLZ]</h2>

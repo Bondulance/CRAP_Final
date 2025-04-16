@@ -129,10 +129,7 @@ li{
     margin-left: 50px;
 } */
 
-#prox_hero {
-    background-image: url("CRAP_Final/assets/pictures/proximity_hero.svg");
-}
-
+/*Hero CSS -----------------------------------------------------------------------------------*/
 .hero {
     background-repeat: no-repeat;
     background-size: 100%;
@@ -141,6 +138,18 @@ li{
 
 .mainPages_hero {
     width: 100%;
+}
+
+#prox_hero {
+    background-image: url("../pictures/proximity_hero.svg");
+}
+
+#rep_hero {
+    background-image: url("../pictures/repetition_hero.svg");
+}
+
+#gb_hero {
+    background-image: url("../pictures/goodBad_hero.svg");
 }
 
 .title {
