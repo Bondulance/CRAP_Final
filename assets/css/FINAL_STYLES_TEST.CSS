@@ -101,7 +101,7 @@ main{
 }
 
 main img {
-    border: 1px solid blueviolet; /*FOR TESTING*/
+    border: 1px solid blueviolet; /*FOR TESTING*/ /*GET RID LATER*/
     justify-self: center;
     width: 70vw;
 }
@@ -129,8 +129,14 @@ li{
     margin-left: 50px;
 } */
 
+#prox_hero {
+    background-image: url("CRAP_Final/assets/pictures/proximity_hero.svg");
+}
+
 .hero {
-    border: black solid 3px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 .mainPages_hero {
@@ -140,9 +146,23 @@ li{
 .title {
     display: flex;
     justify-self: center;
-    color: green;
+    color: #ffffff;
     font-size: 10vw;
     align-self: center;
+}
+
+/*Proximity CSS --------------------------------------------------------------------------------------*/
+#prox_page h2 {
+    margin-top: 60px;
+}
+
+#prox_page h2, #prox_page p {
+    text-align: start;
+}
+
+#prox_page img {
+    margin: 20px 0px;
+    height: 65vh;
 }
 
 /*Footer CSS-------------------------------------------------------------------------------------------*/

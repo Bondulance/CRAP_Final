@@ -3,10 +3,10 @@
     include('./assets/include/navigation.inc.php');
 ?>
         </header>
-        <section class="hero">
-            <h1 id="proximity_title" class="title">PROXIMITY</h1>
+        <section id="prox_hero" class="hero">
+            <h1 class="title">PROXIMITY</h1>
             <!--make part of bg-->
-            <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group">
+            <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
         <main id="prox_page">
             <h2>What is Proximity?</h2>
