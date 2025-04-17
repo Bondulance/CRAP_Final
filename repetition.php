@@ -26,7 +26,7 @@
         </header>
 
         <main>
-            <div class="content">
+            <div class="content" id="leftAlign">
                 <p>
                     Repetition is the principle of consistency within the design. Like contrast, repetition also involves 
                     using fonts, visual elements, and colors throughout the website and ensuring that these elements are 
@@ -35,8 +35,9 @@
                     Through the repetition of prevailing design elements, designers may attain unity and harmony, thus leading 
                     to an enhanced user experience and a stronger website identity.
                 </p>
+                <img src="assets/pictures/repetition_example.svg" alt="repetition example" class="Rfloat" id="repEx">
             </div>
-            <div class="content">
+            <div class="content" id="leftAlign">
                 <p>
                     The purpose of Repetition is to establish brand identity, improve the user experience, build trust with 
                     the user, and enhance navigation through the web. Repetition establishes brand identity by providing 
@@ -49,7 +50,6 @@
                     to rapidly scan the page and find the information they are looking for. Having good use of repetition 
                     can make it convenient for users to explore the content on the page.
                 </p>
-                <img src="assets/pictures/repetition_example.svg" alt="repetition example" class="Rfloat">
             </div>
 
             <div class="content">
@@ -63,7 +63,7 @@
                 </p>
             </div>
 
-            <img src="assets/pictures/repetition_bad.svg" alt="Repetition used wrong">
+            <img src="assets/pictures/repetition_bad.svg" alt="Repetition used wrong" class="centerImg">
 
             <div class="content">
                 <p>

@@ -62,7 +62,8 @@ body {
     float: left;
     width: 450px;
     height: 300px;
-    margin-right: 100px;
+    margin: 100px;
+    margin-left: 0;
 }
 
 .topic{
@@ -84,18 +85,15 @@ body {
     float: right;
     width: 450px;
     height: 300px;
-    margin-left: 100px;
+    margin: 100px;
+    margin-right: 0px;
 }
 
 .content, .reverseContent{
-    display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
-
-.content p, .reverseContent p{
-    margin: auto;
-}   
 
 html {
     scroll-behavior: smooth;
@@ -143,12 +141,20 @@ li{
     width: 100%;
 }
 
+#repEx{
+    width: 420px;
+    height: 624px;
+}
+
+#leftAlign{
+    text-align: left;
+}
+
 .title {
     display: flex;
-    justify-self: center;
     color: green;
     font-size: 10vw;
-    align-self: center;
+    justify-content: center;
 }
 
 /*Proximity*/
@@ -211,7 +217,7 @@ footer a:hover {
 /*tablet screens*/
 @media screen and (min-width: 900px) and (max-width: 1500px){
     main{
-        margin: auto 115px;
+        margin: auto 15vw;
     }
 
     .CRAP, .CRAP2{
