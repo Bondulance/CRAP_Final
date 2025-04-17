@@ -60,7 +60,7 @@
         </main>
 
 <?php
-include('./assets/include/footer.inc.php');
+    include('./assets/include/footer.inc.php');
 ?>
 
         <!-- <footer>

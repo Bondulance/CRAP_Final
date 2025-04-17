@@ -452,6 +452,8 @@ button:hover a{
 }
 .dropcont{
     background-color: #791D8F;
+    z-index: 99;
+    
     width: 50%;
     margin: 0px 0px 0px 10%;
     display: flex;
