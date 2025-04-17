@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <header>
+        <header> -->
             <?php
                 $pageTitle = 'Homepage';
                 include('./assets/include/navigation.inc.php');
@@ -59,13 +59,13 @@
             </div>
         </main>
 
-<!-- <?php
-// include('./footer.php');
-?>  -->
+<?php
+include('./assets/include/footer.inc.php');
+?>
 
-        <footer>
+        <!-- <footer>
             <div class="footer_links">
-                <h1><a href="#">CRAP PRINCIPLES</a></h1>  <!--Link to homepage-->
+                <h1><a href="#">CRAP PRINCIPLES</a></h1>  Link to homepage
                 <p><a href="#">Contrast</a></p>
                 <p><a href="#">Repetition</a></p>
                 <p><a href="#">Allignment</a></p>
@@ -90,4 +90,4 @@
         </footer>
     </body>
     
-</html>
+</html> -->
