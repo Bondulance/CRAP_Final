@@ -1,132 +1,135 @@
 /*Main css file for the site*/
 body {
-    font-family: "Inter", sans-serif;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
 
-#home_img { /*the img in question*/
-    width: 100%;
-    margin: 0px;
-    position: relative;
-    z-index: -1;
+#home_img {
+  /*the img in question*/
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  z-index: -1;
 }
 
-.under{
-    background-color: #791D8F;
-    width: 100%;
-    height: 250px;
+.under {
+  background-color: #791d8f;
+  width: 100%;
+  height: 250px;
 }
 
-.repHero{
-    border: 3px solid black;
-    background-image: url('/assets/pictures/repetition_hero.svg');
-    width: 100%;
-    height: 250px;
+.repHero {
+  border: 3px solid black;
+  background-image: url("/assets/pictures/repetition_hero.svg");
+  width: 100%;
+  height: 250px;
 }
 
-.center{
-    margin: auto;
+.center {
+  margin: auto;
 }
 
-.logo{
-    position: relative;
-    width: 450px;
-    height: 300px;
-    left: 25%;
-    top: 15%;
+.logo {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  left: 25%;
+  top: 15%;
 }
 
-.CRAP{
-    position: relative;
-    right: 18%;
-    bottom: 135%;
-    font-size: 100px;
-    font-weight: bold;
-    color: white;
+.CRAP {
+  position: relative;
+  right: 18%;
+  bottom: 135%;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
 }
 
-.CRAP2{
-    position: relative;
-    right: 18%;
-    bottom: 185%;
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
+.CRAP2 {
+  position: relative;
+  right: 18%;
+  bottom: 185%;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
 }
 
-.Lfloat{
-    float: left;
-    width: 450px;
-    height: 300px;
-    margin: 100px;
-    margin-left: 0;
+.Lfloat {
+  float: left;
+  width: 450px;
+  height: 300px;
+  margin: 100px;
+  margin-left: 0;
 }
 
-.topic{
-    font-size: 50px;
-    padding: 50px 0;
+.topic {
+  font-size: 50px;
+  padding: 50px 0;
 }
 
-.intro{
-    font-weight: 250;
-    font-size: 25px;
-    padding-top: 50px;
+.intro {
+  font-weight: 250;
+  font-size: 25px;
+  padding-top: 50px;
 }
 
-.introHead{
-    display: none;
+.introHead {
+  display: none;
 }
 
-.Rfloat{
-    float: right;
-    width: 450px;
-    height: 300px;
-    margin: 100px;
-    margin-right: 0px;
+.Rfloat {
+  float: right;
+  width: 450px;
+  height: 300px;
+  margin: 100px;
+  margin-right: 0px;
 }
 
-.content, .reverseContent{
-    flex-direction: row;
-    margin-bottom: 70px;
-    margin-top: 70px;
+.content,
+.reverseContent {
+  flex-direction: row;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-main{
-    margin: auto 25vw;
-    line-height: 1.6;
+main {
+  margin: auto 25vw;
+  line-height: 1.6;
 }
 
 main img {
-    border: 1px solid blueviolet; /*FOR TESTING*/
-    justify-self: center;
-    width: 70vw;
+  border: 1px solid blueviolet; /*FOR TESTING*/
+  justify-self: center;
+  width: 70vw;
 }
 
-main a{
-    text-decoration: none;
-    color:rgb(20, 139, 168);
-    font-weight: bold;
+main a {
+  text-decoration: none;
+  color: rgb(20, 139, 168);
+  font-weight: bold;
 }
 
-main h1, main h2{
-    color: #791D8F;
+main h1,
+main h2 {
+  color: #791d8f;
 }
 
-ul{
-    padding: 0;
+ul {
+  padding: 0;
 }
 
-li{
-    margin-left: 50px;
-    padding: 10px;
+li {
+  margin-left: 50px;
+  padding: 10px;
 }
 
 /* main section{
@@ -134,215 +137,218 @@ li{
 } */
 
 .hero {
-    border: black solid 3px;
+  border: black solid 3px;
 }
 
 .mainPages_hero {
-    width: 100%;
+  width: 100%;
 }
 
-#repEx{
-    width: 420px;
-    height: 624px;
+#repEx {
+  width: 420px;
+  height: 624px;
 }
 
-#leftAlign{
-    text-align: left;
+#leftAlign {
+  text-align: left;
 }
 
 .title {
-    display: flex;
-    color: green;
-    font-size: 10vw;
-    justify-content: center;
+  display: flex;
+  color: green;
+  font-size: 10vw;
+  justify-content: center;
 }
 
 /*Proximity*/
 /*The proximity page - and now thinking of it, most of the pages - need a diffent margin and justify in their mains*/
 /*can't see anything so im doing this blind atp, need to check if this actually works later*/
 #prox_page main {
-    margin: 20px 60px;
-    justify-content: flex-start;
-    justify-self: center;
+  margin: 20px 60px;
+  justify-content: flex-start;
+  justify-self: center;
 }
 
 #prox_page img {
-    width: 25vw;
+  width: 25vw;
 }
 
 /*Footer CSS*/
 footer {
-    width: 100%;
-    margin: 0px;
-    padding-top: 10px;
-    background-color: #791D8F;
-    font-size: 0.8em;
+  width: 100%;
+  margin: 0px;
+  padding-top: 10px;
+  background-color: #791d8f;
+  font-size: 0.8em;
 }
 
-footer h1{
-    font-size: 1.3em;
+footer h1 {
+  font-size: 1.3em;
 }
 
 footer > div {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 5vw;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5vw;
+  color: white;
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: #C3F73A;
-    font-weight: 800;
+  color: #c3f73a;
+  font-weight: 800;
 }
 
 .footer_arrow {
-    display: none;  /*hiding arrow on desktop*/
+  display: none; /*hiding arrow on desktop*/
 }
 
 .footer_end {
-    margin-top: 10px;
-    padding-bottom: 10px;
-    justify-self: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  justify-self: center;
 }
 
-.burger{
-    display: none;
+.burger {
+  display: none;
 }
 
 /*tablet screens*/
-@media screen and (min-width: 900px) and (max-width: 1500px){
-    main{
-        margin: auto 15vw;
-    }
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+  main {
+    margin: auto 15vw;
+  }
 
-    .CRAP, .CRAP2{
-        right: 22%;
-    }
+  .CRAP,
+  .CRAP2 {
+    right: 22%;
+  }
 
-    .intro{
-        margin-top: 50px;
-    }
+  .intro {
+    margin-top: 50px;
+  }
 
-    .Lfloat, .Rfloat{
-        width: 300px;
-        height: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
+  .Lfloat,
+  .Rfloat {
+    width: 300px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 /*moblie: feel free to make this wider if needed
 this is just the smallest the footer can be without looking too weird*/
-@media screen and (max-width: 900px){
-    main{
-        margin: auto 50px;
-    }
+@media screen and (max-width: 900px) {
+  main {
+    margin: auto 50px;
+  }
 
-    .introHead{
-        display: block;
-        text-align: center;
-        position: relative;
-        top: 60%;
-        right: 0;
-        color: white;
-        font-weight: 250;
-        font-size: 25px;
-        padding-top: 50px;
-        margin: auto 65px;
-    }
+  .introHead {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 60%;
+    right: 0;
+    color: white;
+    font-weight: 250;
+    font-size: 25px;
+    padding-top: 50px;
+    margin: auto 65px;
+  }
 
-    .reverseContent{
-        flex-direction: column-reverse;
-    }
+  .reverseContent {
+    flex-direction: column-reverse;
+  }
 
-    .content{
-        flex-direction: column;
-    }
+  .content {
+    flex-direction: column;
+  }
 
-    .burger{
-        display: block;
-        width: 75px;
-        height: 75px;
-        border: none;
-        background-color: inherit;
-    }
+  .burger {
+    display: block;
+    width: 75px;
+    height: 75px;
+    border: none;
+    background-color: inherit;
+  }
 
-    .under{
-        background-image: linear-gradient(#791D8F, #f8cafc 65%);
-        display: flex;
-        flex-direction: column-reverse;
-        height: 800px;
-    }
+  .under {
+    background-image: linear-gradient(#791d8f, #f8cafc 65%);
+    display: flex;
+    flex-direction: column-reverse;
+    height: 800px;
+  }
 
-    .intro{
-        display: none;
-    }
+  .intro {
+    display: none;
+  }
 
-    .CRAP{
-        position: relative;
-        bottom: 23%;
-        right: 0;
-    }
+  .CRAP {
+    position: relative;
+    bottom: 23%;
+    right: 0;
+  }
 
-    .CRAP2{
-        position: relative;
-        top: 14%;
-        right: 0.5%;
-    }
+  .CRAP2 {
+    position: relative;
+    top: 14%;
+    right: 0.5%;
+  }
 
-    .burger{
-        position: absolute;
-    }
+  .burger {
+    position: absolute;
+  }
 
-    .logo{
-        position: relative;
-        width: 100%;
-        left: 0;
-        bottom: 10%;
-        padding-bottom: 50px;
-        background-color: #f8cafc;
-    }
+  .logo {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 10%;
+    padding-bottom: 50px;
+    background-color: #f8cafc;
+  }
 
-    .Lfloat, .Rfloat{
-        float: none;
-        margin: 30px auto;
-        width: 300px;
-        height: 200px;
-    }
+  .Lfloat,
+  .Rfloat {
+    float: none;
+    margin: 30px auto;
+    width: 300px;
+    height: 200px;
+  }
 
-    .topic{
-        padding-top: 140px;
-    }
+  .topic {
+    padding-top: 140px;
+  }
 
-    /*Footer CSS*/
-    footer > div {
-        flex-direction: column;
-    }
+  /*Footer CSS*/
+  footer > div {
+    flex-direction: column;
+  }
 
-    .quiz_head {
-        display: inline-flex;
-        align-items: center;
-    }
+  .quiz_head {
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+  }
 
-    .footer_arrow {
-        display: inline;
-        position: relative;
-        top: 1px;
-        background-color: rgba(255, 255, 255, 0);
-        border: none;
-        padding: 0px;
-        height: 30px;
-        width: 30px;
-    }
+  .footer_arrow {
+    display: inline;
+    position: relative;
+    top: 1px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+  }
 
-    #q{
-        display: none;
-        margin-left: 20px;
-    }
+  #q {
+    display: none;
+    margin-left: 20px;
+  }
 }
