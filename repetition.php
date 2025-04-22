@@ -25,7 +25,7 @@
             </div>
         </header>
 
-        <main>
+        <main class="a_page" id="rep_page">
             <div class="content">
                 <p>
                     Repetition is the principle of consistency within the design. Like contrast, repetition also involves 

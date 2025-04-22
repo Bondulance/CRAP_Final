@@ -7,13 +7,13 @@
             <h1 class="title">GOOD VS BAD</h1>
             <!-- <img class="mainPages_hero" src="assets/pictures/goodBad_hero.svg" alt="one set of boxes neatly aligned next to another set that looks scattered"> -->
         </section>
-        <main>
-            <h2>[INSERT SUBHEADING HERE PLZ]</h2>
+        <main class="a_page" id="gb_page">
             <p>
                 Welcome to a short guide on what to do, versus what not to do when it comes to creating an accessible and 
                 CRAP-oriented website. We will look at two examples, one utilizing CRAP principles and the other looking 
                 like crap. To start with the good, looking at the Prism page off of <a href="graphpad.com">graphpad.com</a>.
             </p>
+            <h2>How is Prism good?</h2>
             <p>
                 The Prism page utilizes all four principles very well and we will go over each. When it comes to contrast, 
                 the page has a more eye catching header with the deep purple background compared to the body with the paler
@@ -40,6 +40,7 @@
                 examples to create a clear and smooth user experience on your page. We will be covering the one and only, Yale 
                 School of Art webpage (<a href="https://www.art.yale.edu/">https://www.art.yale.edu/</a>).
             </p>
+            <h2>How is Yale Art bad?</h2>
             <img class="Lfloat" src="assets/pictures/goodBad_yaleArt.png" alt="Screenshot of Yale Art website">
             <p>
                 When it comes to Contrast, you can certainly say there is a lot. Sadly in this case, there is far too much. From 

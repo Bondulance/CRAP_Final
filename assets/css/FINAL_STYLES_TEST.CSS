@@ -161,15 +161,15 @@ li{
 }
 
 /*Proximity CSS --------------------------------------------------------------------------------------*/
-#prox_page h2 {
+.a_page h2 {
     margin-top: 60px;
 }
 
-#prox_page h2, #prox_page p {
+.a_page h2, .a_page p {
     text-align: start;
 }
 
-#prox_page img {
+#prox_page img, #rep_page img, #gb_page img {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
     margin: 20px 0px;
     height: 65vh;
 }
