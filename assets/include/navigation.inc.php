@@ -39,10 +39,10 @@
                         </p>
                     </section>
                     <section class="navlinks">
-                        <a href="ContrastQuiz.php">Contrast Quiz</a>
-                        <a href="RepetitionQuiz.php">Repetition Quiz</a>
-                        <a href="AlignmentQuiz.php">Alignment Quiz</a>
-                        <a href="ProximityQuiz.php">Proximity Quiz</a>
+                        <a href="contrastQuiz.php">Contrast Quiz</a>
+                        <a href="repetitionQuiz.php">Repetition Quiz</a>
+                        <a href="alignmentQuiz.php">Alignment Quiz</a>
+                        <a href="proximityQuiz.php">Proximity Quiz</a>
                     </section>
                 </div>
             </div>
