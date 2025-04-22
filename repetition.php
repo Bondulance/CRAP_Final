@@ -20,9 +20,9 @@
                 <img src="assets/pictures/menuHamburger.svg">
             </button>
 
-            <div id="rep_hero" class="hero">
+            <section id="#rep_hero" class="hero">
                 <h1 class="title">REPETITION</h1>
-            </div>
+            </section>
         </header>
 
         <main class="a_page" id="rep_page">

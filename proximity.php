@@ -1,13 +1,14 @@
 <?php
     $pageTitle = 'Homepage';
     include('./assets/include/navigation.inc.php');
-?>
-        </header>
+?> 
         <section id="prox_hero" class="hero">
             <h1 class="title">PROXIMITY</h1>
             <!--make part of bg-->
             <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
+        </header>
+        
         <main class="a_page" id="prox_page">
             <h2>What is Proximity?</h2>
             <p>

@@ -23,9 +23,9 @@
                 <a href="./Alignment.html">Alignment</a>
                 <a href="./Proximity.html">Proximity</a>
                 <button class="dropbtn" onclick="">Quizzes ^</button> -->
-                <a href="#">Contrast</a>
+                <a href="contrast.php">Contrast</a>
                 <a href="repetition.php">Repetition</a>
-                <a href="#">Alignment</a>
+                <a href="alignment.php">Alignment</a>
                 <a href="proximity.php">Proximity</a>
                 <button onclick="navButtonToggle()" class="arrow"><a href="#">Quizzes</a><img src="assets/pictures/arrowDown_white.svg"></button>
             </section>
