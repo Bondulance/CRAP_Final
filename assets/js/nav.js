@@ -1,4 +1,4 @@
-function buttonToggle() {
+function navButtonToggle() {
     var content = document.getElementById('dropdown');
     if (content.style.display == 'none') {
         content.style.display = 'block';

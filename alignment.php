@@ -3,56 +3,35 @@
     include('./assets/include/navigation.inc.php');
 ?>
         </header>
-        <section id="prox_hero" class="hero">
-            <h1 class="title">PROXIMITY</h1>
+        <section id="alignment_hero" class="hero">
+            <h1 class="title">Alignment</h1>
             <!--make part of bg-->
             <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
-        <main class="a_page" id="prox_page">
-            <h2>What is Proximity?</h2>
-            <p>
-                In web design, proximity is the idea that items closely associated with each other 
-                should be physically closer to each other, and farther apart if they aren’t. This makes 
-                it much quicker and easier for users to see the relationships between elements and makes 
-                sections more defined which can lead to better site retention.
-            </p>
-            <h2>How Do We Use It?</h2>
-            <p>
-                In the example below, you can see that all the elements are spaced evenly from each other, 
-                however, it is difficult to see which text goes with which picture by sight alone. While you 
-                can pray that your users would assume the text above goes with the image below, you should 
-                absolutely not count on that. It’s much safer to assume users will mess up using everything on 
-                your site unless it’s explicitly stated or shown.
-            </p>
-            <img src="assets/pictures/proximity_none.svg" alt="All elements are evenly spaced out">
-            <p>
-                If we rearrange the page so that there’s more empty space (also known as whitespace or 
-                negative space) between each title and image pair, then it’s much easier to see what goes 
-                with what.
-            </p>
-            <img src="assets/pictures/proximity_whiteSpace.svg" alt="The dog pictures and dog names are grouped together">
-            <p>
-                Alternatively, we can also put the image-title pairs into small containers (or cards) and 
-                change the background color of them so that it’s visually distinct from its surroundings.
-            </p>
-            <img src="assets/pictures/proximity_card.svg" alt="The dog pictures and dog names are placed over a grey rectangle">
-            <h2>But Beware!</h2>
-            <p>
-                Beware of using too much proximity, it can easily make everything look disjointed, confusing and unpolished. 
-                Also, making a user scroll a lot just to get to the next section isn’t great design.
-            </p>
-            <p>
-                If you’ll look at this example, you can see that this site looks odd to say the least.
-            </p>
-            <img src="assets/pictures/proximity_genericSite.svg" alt="Site with too much white space in the middle">
-            <p>
-                The spacing makes it look as if someone just couldn’t code it properly rather than an intentional design. 
-                Due to the amateur look, someone may be hesitant or apprehensive to continue navigating the site or might click off 
-                as soon as it loads.
-            </p>
-        </main>
+        <main id="alignment_page">
+            <h2>What is Alignment?</h2>
+            <p>The principle of Alignment describes the structure and balance of the webpage. Alignment ensures that the organization of all the elements in the webpage remain consistent and in a flawless form. Without alignment, your webpage will look messy, and responsive development is near impossible.</p>
+            <h2>What can it be used for?</h2>
+            <p>While alignment might seem like a one trick pony, it has many hidden benefits. Alignment can give a sense of direction on the webpage, helping users navigate much easier. It helps get rid of clutter and in turn organizes your data, making your page more consistent. To dive deeper, there are two main types of alignment; edge alignment and center alignment.</p>
+            <p>Edge alignment is used to naturally position all elements based off of their outer edges. For example, two square images with a different width, but on the same row, would be edge aligned. </p>
+            <img src="assets/pictures/alignment_edge.svg" alt="Edge aligned boxes">
+            <p>The other type of alignment, center alignment, places all elements so they line up with each other based off of their center axes.</p>
+            <img src="assets/pictures/alignment_center.svg" alt="Center aligned boxes">
+            <h2>Alignment can be tricky...</h2>
+            <p>Alignment is the hardest to get right of all the other CRAP principles. The reasons behind this? The pesky human eyes. We tend to find even the smallest of inconsistencies, meaning every pixel must be perfectly aligned! Designing must be taken with great care and attention to detail to ensure a clean, refined website is brought out.</p>
+            <p>To give examples of bad alignment, check out these examples:</p>
+            <img src="assets/pictures/alignment_bad.svg" alt="Poor alignment example">
+            <p>Looking at the dark 3 rectangles at the top, we see that the leftmost rectangle is drastically higher than the other two. It also lacks margins on the sides and makes for a very lopsided and almost uncomfortable look at the webpage. </p>
+            <p>The second layer is not as harsh of a outlier, yet the bottom right square does not end where the top rectangle does, causing an imbalance in the alignment and overall design.</p>
+            <p>Moving forward to good alignment, let's look at this example. </p>
+            <img src="assets/pictures/alignment_good.svg" alt="Good alignment example">
+            <p>The three dark rectangles are center aligned, have equal spacing between themselves, and are all the same size. The design is very even, and makes for an inoffensive, common, but good look and balance to the webpage. </p>
+            <p>Going down to our second Layer, while they are not the same size, they take up the same width, are center aligned, and provide some interesting contrast in the page design.</p>
+            <p>Lastly, the best ways to solve the challenge of alignment. Of course, designing will take a lot of the hard workload off, but when it comes to your CSS, invest some time into learning flexbox and grid. Flexbox is a fantastic tool that helps with alignment, offering utility for making columns, rows, and centering with ease. Grid operates slightly differently, but still makes creating columns and rows quite easy.</p>
 
-        <!-- php -->
+
+
+        </main>
         <footer>
             <div class="footer_links">
                 <h1><a href="#">CRAP PRINCIPLES</a></h1>  <!--Link to homepage-->

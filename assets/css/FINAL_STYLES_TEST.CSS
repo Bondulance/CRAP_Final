@@ -1,128 +1,129 @@
-
-
 /* BEGIN STYLE */
-
 
 /*Main css file for the site*/
 body {
-    font-family: "Inter", sans-serif;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
 
-#home_img { /*the img in question*/
-    width: 100%;
-    margin: 0px;
-    position: relative;
-    z-index: -1;
+#home_img {
+  /*the img in question*/
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  z-index: -1;
 }
 
-.under{
-    background-color: #791D8F;
-    width: 100%;
-    height: 250px;
+.under {
+  background-color: #791d8f;
+  width: 100%;
+  height: 250px;
 }
 
-.logo{
-    position: relative;
-    width: 450px;
-    height: 300px;
-    left: 25%;
-    top: 15%;
+.logo {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  left: 25%;
+  top: 15%;
 }
 
-.CRAP{
-    position: relative;
-    right: 18%;
-    bottom: 135%;
-    font-size: 100px;
-    font-weight: bold;
-    color: white;
+.CRAP {
+  position: relative;
+  right: 18%;
+  bottom: 135%;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
 }
 
-.CRAP2{
-    position: relative;
-    right: 18%;
-    bottom: 185%;
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
+.CRAP2 {
+  position: relative;
+  right: 18%;
+  bottom: 185%;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
 }
 
-.Lfloat{
-    float: left;
-    width: 450px;
-    height: 300px;
-    margin-right: 100px;
+.Lfloat {
+  float: left;
+  width: 450px;
+  height: 300px;
+  margin-right: 100px;
 }
 
-.topic{
-    font-size: 50px;
-    padding: 50px 0;
+.topic {
+  font-size: 50px;
+  padding: 50px 0;
 }
 
-.intro{
-    font-weight: 250;
-    font-size: 25px;
-    padding-top: 50px;
+.intro {
+  font-weight: 250;
+  font-size: 25px;
+  padding-top: 50px;
 }
 
-.introHead{
-    display: none;
+.introHead {
+  display: none;
 }
 
-.Rfloat{
-    float: right;
-    width: 450px;
-    height: 300px;
-    margin-left: 100px;
+.Rfloat {
+  float: right;
+  width: 450px;
+  height: 300px;
+  margin-left: 100px;
 }
 
-.content, .reverseContent{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 100px;
+.content,
+.reverseContent {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
 }
 
-.content p, .reverseContent p{
-    margin: auto;
-}   
+.content p,
+.reverseContent p {
+  margin: auto;
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-main{
-    margin: auto 25vw;
-    line-height: 1.6;
+main {
+  margin: auto 25vw;
+  line-height: 1.6;
 }
 
 main img {
-    border: 1px solid blueviolet; /*FOR TESTING*/ /*GET RID LATER*/
-    justify-self: center;
-    width: 70vw;
+  border: 1px solid blueviolet; /*FOR TESTING*/ /*GET RID LATER*/
+  justify-self: center;
+  width: 70vw;
 }
 
-main a{
-    text-decoration: none;
-    color:rgb(20, 139, 168);
-    font-weight: bold;
+main a {
+  text-decoration: none;
+  color: rgb(20, 139, 168);
+  font-weight: bold;
 }
 
-main h1, main h2{
-    color: #791D8F;
+main h1,
+main h2 {
+  color: #791d8f;
 }
 
-ul{
-    padding: 0;
+ul {
+  padding: 0;
 }
 
-li{
-    margin-left: 50px;
-    padding: 10px;
+li {
+  margin-left: 50px;
+  padding: 10px;
 }
 
 /* main section{
@@ -131,351 +132,355 @@ li{
 
 /*Hero CSS -----------------------------------------------------------------------------------*/
 .hero {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
 .mainPages_hero {
-    width: 100%;
+  width: 100%;
 }
 
 #prox_hero {
-    background-image: url("../pictures/proximity_hero.svg");
+  background-image: url("../pictures/proximity_hero.svg");
 }
 
 #rep_hero {
-    background-image: url("../pictures/repetition_hero.svg");
+  background-image: url("../pictures/repetition_hero.svg");
 }
 
 #gb_hero {
-    background-image: url("../pictures/goodBad_hero.svg");
+  background-image: url("../pictures/goodBad_hero.svg");
 }
 
 .title {
-    display: flex;
-    justify-self: center;
-    color: #ffffff;
-    font-size: 10vw;
-    align-self: center;
+  display: flex;
+  justify-self: center;
+  color: #ffffff;
+  font-size: 10vw;
+  align-self: center;
 }
 
 /*Proximity CSS --------------------------------------------------------------------------------------*/
 .a_page h2 {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
-.a_page h2, .a_page p {
-    text-align: start;
+.a_page h2,
+.a_page p {
+  text-align: start;
 }
 
 #prox_page img, #rep_page img, #gb_page img {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
-    margin: 20px 0px;
-    height: 65vh;
+  margin: 20px 0px;
+  height: 65vh;
 }
 
 /*Footer CSS-------------------------------------------------------------------------------------------*/
 footer {
-    width: 100%;
-    margin: 0px;
-    padding-top: 10px;
-    background-color: #791D8F;
-    font-size: 0.8em;
+  width: 100%;
+  margin: 0px;
+  padding-top: 10px;
+  background-color: #791d8f;
+  font-size: 0.8em;
 }
 
-footer h1{
-    font-size: 1.3em;
+footer h1 {
+  font-size: 1.3em;
 }
 
 footer > div {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 5vw;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5vw;
+  color: white;
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: #C3F73A;
-    font-weight: 800;
+  color: #c3f73a;
+  font-weight: 800;
 }
 
 .footer_arrow {
-    display: none;  /*hiding arrow on desktop*/
+  display: none; /*hiding arrow on desktop*/
 }
 
 .footer_end {
-    margin-top: 10px;
-    padding-bottom: 10px;
-    justify-self: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  justify-self: center;
 }
 
-.burger{
-    display: none;
+.burger {
+  display: none;
 }
 
 /*tablet screens*/
-@media screen and (min-width: 900px) and (max-width: 1500px){
-    main{
-        margin: auto 115px;
-    }
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+  main {
+    margin: auto 115px;
+  }
 
-    .CRAP, .CRAP2{
-        right: 22%;
-    }
+  .CRAP,
+  .CRAP2 {
+    right: 22%;
+  }
 
-    .intro{
-        margin-top: 50px;
-    }
+  .intro {
+    margin-top: 50px;
+  }
 
-    .Lfloat, .Rfloat{
-        width: 300px;
-        height: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
+  .Lfloat,
+  .Rfloat {
+    width: 300px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 /*moblie: feel free to make this wider if needed
 this is just the smallest the footer can be without looking too weird*/
-@media screen and (max-width: 900px){
-    main{
-        margin: auto 50px;
-    }
+@media screen and (max-width: 900px) {
+  main {
+    margin: auto 50px;
+  }
 
-    .introHead{
-        display: block;
-        text-align: center;
-        position: relative;
-        top: 60%;
-        right: 0;
-        color: white;
-        font-weight: 250;
-        font-size: 25px;
-        padding-top: 50px;
-        margin: auto 65px;
-    }
+  .introHead {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 60%;
+    right: 0;
+    color: white;
+    font-weight: 250;
+    font-size: 25px;
+    padding-top: 50px;
+    margin: auto 65px;
+  }
 
-    .reverseContent{
-        flex-direction: column-reverse;
-    }
+  .reverseContent {
+    flex-direction: column-reverse;
+  }
 
-    .content{
-        flex-direction: column;
-    }
+  .content {
+    flex-direction: column;
+  }
 
-    .burger{
-        display: block;
-        width: 75px;
-        height: 75px;
-        border: none;
-        background-color: inherit;
-    }
+  .burger {
+    display: block;
+    width: 75px;
+    height: 75px;
+    border: none;
+    background-color: inherit;
+  }
 
-    .under{
-        background-image: linear-gradient(#791D8F, #f8cafc 65%);
-        display: flex;
-        flex-direction: column-reverse;
-        height: 800px;
-    }
+  .under {
+    background-image: linear-gradient(#791d8f, #f8cafc 65%);
+    display: flex;
+    flex-direction: column-reverse;
+    height: 800px;
+  }
 
-    .intro{
-        display: none;
-    }
+  .intro {
+    display: none;
+  }
 
-    .CRAP{
-        position: relative;
-        bottom: 23%;
-        right: 0;
-    }
+  .CRAP {
+    position: relative;
+    bottom: 23%;
+    right: 0;
+  }
 
-    .CRAP2{
-        position: relative;
-        top: 14%;
-        right: 0.5%;
-    }
+  .CRAP2 {
+    position: relative;
+    top: 14%;
+    right: 0.5%;
+  }
 
-    .burger{
-        position: absolute;
-    }
+  .burger {
+    position: absolute;
+  }
 
-    .logo{
-        position: relative;
-        width: 100%;
-        left: 0;
-        bottom: 10%;
-        padding-bottom: 50px;
-        background-color: #f8cafc;
-    }
+  .logo {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 10%;
+    padding-bottom: 50px;
+    background-color: #f8cafc;
+  }
 
-    .Lfloat, .Rfloat{
-        float: none;
-        margin: 30px auto;
-        width: 300px;
-        height: 200px;
-    }
+  .Lfloat,
+  .Rfloat {
+    float: none;
+    margin: 30px auto;
+    width: 300px;
+    height: 200px;
+  }
 
-    .topic{
-        padding-top: 140px;
-    }
+  .topic {
+    padding-top: 140px;
+  }
 
-    /*Footer CSS*/
-    footer > div {
-        flex-direction: column;
-    }
+  /*Footer CSS*/
+  footer > div {
+    flex-direction: column;
+  }
 
-    .quiz_head {
-        display: inline-flex;
-        align-items: center;
-    }
+  .quiz_head {
+    display: inline-flex;
+    align-items: center;
+  }
 
-    .footer_arrow {
-        display: inline;
-        position: relative;
-        top: 1px;
-        background-color: rgba(255, 255, 255, 0);
-        border: none;
-        padding: 0px;
-        height: 30px;
-        width: 30px;
-    }
+  .footer_arrow {
+    display: inline;
+    position: relative;
+    top: 1px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+  }
 
-    #q{
-        display: none;
-        margin-left: 20px;
-    }
+  #q {
+    display: none;
+    margin-left: 20px;
+  }
 }
 
 /* END STYLE */
 
-
-
-
 /* BEGIN NAV */
 
-nav body{
-    margin: 0px;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
+nav body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
 }
 
-header h1{
-    /* width: 1440px;
+header h1 {
+  /* width: 1440px;
     text-align: center;
     margin: auto;
     text-emphasis: bold; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    background-color: #3E0D49;
-    font-size: 2em;
-    color: white;
-    padding: 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #3e0d49;
+  font-size: 2em;
+  color: white;
+  padding: 15px 0px;
 }
 
-header h1, nav {
-    width: 100vw;
-    margin: 0px;
+header h1,
+nav {
+  width: 100vw;
+  margin: 0px;
 }
 
-nav{
-    margin: 0px;
-    background-color: #3E0D49;
-    color: white;
+nav {
+  margin: 0px;
+  background-color: #3e0d49;
+  color: white;
 }
 
-nav > section{
-    /* display: flex;
+nav > section {
+  /* display: flex;
     width: 1440px;
     margin: auto;
     border: 1px solid black; */
-    position: relative;
-    top: -2px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #3E0D49;
-    margin: 0px;
+  position: relative;
+  top: -2px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3e0d49;
+  margin: 0px;
 }
 
-nav > section button{
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    background-color: #3E0D49;
-    text-decoration: underline;
-    color: black;
-    border: none;
+nav > section button {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: #3e0d49;
+  text-decoration: underline;
+  color: black;
+  border: none;
 }
 
-nav > section button a{
-    font-family: "Inter", sans-serif;
-    font-size: 1.2em;
-    margin: 0px 10px;
+nav > section button a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2em;
+  margin: 0px 10px;
 }
 
-nav > section > *{
-    width: 20rem;
-    text-align: center;
+nav > section > * {
+  width: 20rem;
+  text-align: center;
 }
 
-nav a{ 
-    color: white;
-    text-decoration: underline;
-    padding: 10px 0px;
+nav a {
+  color: white;
+  text-decoration: underline;
+  padding: 10px 0px;
 }
 
-nav > section a:hover { 
-    color: black;
-    background-color: #C3F73A;
+nav > section a:hover {
+  color: black;
+  background-color: #c3f73a;
 }
 
 button:hover {
-    background-color: #C3F73A;
+  background-color: #c3f73a;
 }
 
-button:hover a{
-    color: black;
+button:hover a {
+  color: black;
 }
 
-#dropdown{
-    background-color: #791D8F;
-    display: none;
-    width: 100vw;
-    position: absolute;
+#dropdown {
+  background-color: #791d8f;
+  display: none;
+  width: 100vw;
+  position: absolute;
 }
-.dropcont{
-    width: 50%;
-    margin: 0px 0px 0px 10%;
-    display: flex;
+.dropcont {
+  background-color: #791d8f;
+  z-index: 99;
+
+  width: 50%;
+  margin: 0px 0px 0px 10%;
+  display: flex;
 }
 
-.navlinks{
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0px;
-    padding-left: 20%;
+.navlinks {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px;
+  padding-left: 20%;
 }
-.navlinks a{
-    width: 125px;
-    margin: 2px 0px;
-}
-
-.navlinks a:hover{
-    color: #C3F73A;
-    font-weight: 900;
+.navlinks a {
+  width: 125px;
+  margin: 2px 0px;
 }
 
-.navtext{
-    margin: 30px 10px;
-    width: 250px;
-    min-width: 249px;
+.navlinks a:hover {
+  color: #c3f73a;
+  font-weight: 900;
+}
+
+.navtext {
+  margin: 30px 10px;
+  width: 250px;
+  min-width: 249px;
 }
 
 /* .arrow {
@@ -490,11 +495,7 @@ button:hover a{
     width: 30px;
 } */
 
-
 /* END NAV */
-
-
-
 
 /* BEGIN QUIZ */
 
@@ -502,26 +503,46 @@ button:hover a{
 /* Do not add code here */
 
 .question {
-    background: #efefef;
-    border-radius: 1rem;
-    padding: 15px;
-  }
-.quiz > body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    font-family: Inter;
-  }
-  .quiz > h2 {
-    font-family: Inter;
-  }
-  .quiz > body {
-    font-family: inter;
-  }
-  #warning {
-    color: red;
-  }
-  
+  background: #efefef;
+  border-radius: 1rem;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 70%;
+}
+#quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#quiz > h2 {
+  font-family: Inter;
+}
+
+#warning {
+  color: red;
+}
+
+#tracker {
+  color: #791d8f;
+}
+
+#submitAnswer {
+  color: white;
+  background: #3e0d49;
+  border-radius: 16px;
+  padding: 5px 20px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#submitAnswer:hover {
+  background-color: #c3f73a;
+  color: black;
+}
 
 /* END QUIZ */

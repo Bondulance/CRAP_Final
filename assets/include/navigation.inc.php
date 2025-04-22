@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,11 @@
     <link rel="stylesheet" href="assets/css/FINAL_STYLES_TEST.css">
     <script src="assets/js/nav.js" defer></script>
     <script src="assets/js/footer.js" defer></script>
-    <title><?php echo $pageTitle?></title>
+    <script src="assets/js/proximityQuiz.js" defer></script>
+
+    <title><?php echo $pageTitle ?></title>
 </head>
+
 <body>
     <header>
         <h1>CRAP PRINCIPLES</h1>
