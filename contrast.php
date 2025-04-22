@@ -8,7 +8,7 @@
             <!--make part of bg-->
             <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
-        <main id="contrast_page">
+        <main id="contrast_page" class="a_page">
 
         <p>Contrast is the difference in design between elements often close to each other. Most commonly it refers to color, like black text on a white background, but the concept applies to any element of design. If you want something to pop out at a user, do something different compared to the rest of the page whether it be color, font, texture of an image (smooth and rounded with gradients vs. blocky and with defined edges), even word choice can be an effective contrast as a storytelling device.
         </p>

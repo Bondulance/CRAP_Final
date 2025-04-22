@@ -8,7 +8,7 @@
             <!--make part of bg-->
             <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
-        <main id="alignment_page">
+        <main class="a_page" id="alignment_page">
             <h2>What is Alignment?</h2>
             <p>The principle of Alignment describes the structure and balance of the webpage. Alignment ensures that the organization of all the elements in the webpage remain consistent and in a flawless form. Without alignment, your webpage will look messy, and responsive development is near impossible.</p>
             <h2>What can it be used for?</h2>
