@@ -1,12 +1,13 @@
 <?php
     $pageTitle = 'Homepage';
     include('./assets/include/navigation.inc.php');
-?>
+?> 
+            <section id="gb_hero" class="hero">
+                <h1 class="title">GOOD VS BAD</h1>
+                <!-- <img class="mainPages_hero" src="assets/pictures/goodBad_hero.svg" alt="one set of boxes neatly aligned next to another set that looks scattered"> -->
+            </section>
         </header>
-        <section id="gb_hero" class="hero">
-            <h1 class="title">GOOD VS BAD</h1>
-            <!-- <img class="mainPages_hero" src="assets/pictures/goodBad_hero.svg" alt="one set of boxes neatly aligned next to another set that looks scattered"> -->
-        </section>
+        
         <main class="a_page" id="gb_page">
             <p>
                 Welcome to a short guide on what to do, versus what not to do when it comes to creating an accessible and 
