@@ -153,11 +153,11 @@ li {
   background-image: url("../pictures/goodBad_hero.svg");
 }
 
-#contrast_page {
+#cont_hero {
   background-image: url("../pictures/contrast_hero.svg");
 }
 
-#alignment_page {
+#alignment_hero {
   background-image: url("../pictures/alignment_hero.svg");
 }
 
@@ -179,7 +179,7 @@ li {
   text-align: start;
 }
 
-#prox_page img, #rep_page img, #gb_page img, #contrast_page, #alignment_page {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
+#prox_page img, #rep_page img, #gb_page img, #contrast_page img, #alignment_page img {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
   margin: 20px 0px;
   height: 65vh;
 }
