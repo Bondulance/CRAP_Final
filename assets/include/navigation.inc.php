@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/FINAL_STYLES_TEST.css">
+    <link rel="stylesheet" type='text/css' href="../css/FINAL_STYLES_TEST.css">
     <script src="assets/js/nav.js" defer></script>
     <script src="assets/js/footer.js" defer></script>
     <script src="assets/js/proximityQuiz.js" defer></script>
