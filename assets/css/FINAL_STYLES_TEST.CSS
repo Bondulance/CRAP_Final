@@ -98,12 +98,17 @@ html {
 main {
   margin: auto 25vw;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main img {
-  border: 1px solid blueviolet; /*FOR TESTING*/ /*GET RID LATER*/
+  margin: 0;
   justify-self: center;
   width: 70vw;
+  object-fit: contain;
 }
 
 main a {
@@ -135,6 +140,7 @@ li {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+ 
 }
 
 .mainPages_hero {
@@ -142,23 +148,24 @@ li {
 }
 
 #prox_hero {
-  background-image: url("../pictures/proximity_hero.svg");
+  background: url("../pictures/proximity_hero.svg");
 }
 
 #rep_hero {
-  background-image: url("../pictures/repetition_hero.svg");
+  background: url("../pictures/repetition_hero.svg");
 }
 
 #gb_hero {
-  background-image: url("../pictures/goodBad_hero.svg");
+  background: url("../pictures/goodBad_hero.svg");
 }
 
 #cont_hero {
-  background-image: url("../pictures/contrast_hero.svg");
+  background: url("assets/pictures/contrast_hero.svg");
+  
 }
 
 #alignment_hero {
-  background-image: url("../pictures/alignment_hero.svg");
+  background: url("../pictures/alignment_hero.svg");
 }
 
 .title {
@@ -382,7 +389,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   height: 10vh;
-  background-color: #3e0d49;
+  background-color: green;
   font-size: 2em;
   color: white;
   padding: 15px 0px;
@@ -396,7 +403,7 @@ nav {
 
 nav {
   margin: 0px;
-  background-color: #3e0d49;
+  background-color: green;
   color: white;
 }
 
