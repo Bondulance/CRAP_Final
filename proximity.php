@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = 'Homepage';
+    $pageTitle = 'Proximity';
     include('./assets/include/navigation.inc.php');
 ?> 
         <section id="prox_hero" class="hero">
@@ -54,9 +54,9 @@
         </main>
 
         <!-- php -->
-        <footer>
+        <!-- <footer>
             <div class="footer_links">
-                <h1><a href="#">CRAP PRINCIPLES</a></h1>  <!--Link to homepage-->
+                <h1><a href="#">CRAP PRINCIPLES</a></h1> Link to homepage
                 <p><a href="#">Contrast</a></p>
                 <p><a href="#">Repetition</a></p>
                 <p><a href="#">Allignment</a></p>
@@ -78,7 +78,10 @@
             <div class="footer_end">
                 <p>Copyright &copy; 2025</p>
             </div>
-        </footer>
+        </footer> -->
+        <?php
+            include('./assets/include/footer.inc.php');
+        ?>
     </body>
     
 </html>
