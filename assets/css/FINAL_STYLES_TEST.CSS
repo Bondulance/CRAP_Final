@@ -107,7 +107,8 @@ main {
 main img {
   margin: 0;
   justify-self: center;
-  width: 70vw;
+  max-width: 70vw;
+  flex: 1;
   object-fit: contain;
 }
 
@@ -199,7 +200,7 @@ li {
 /*Footer CSS-------------------------------------------------------------------------------------------*/
 footer {
   width: 100%;
-  margin: 0px;
+  margin-top: 30px;
   padding-top: 10px;
   background-color: #791d8f;
   font-size: 0.8em;
@@ -563,6 +564,12 @@ button:hover a {
 #submitAnswer:hover {
   background-color: #c3f73a;
   color: black;
+}
+
+#submitAnswer:disabled {
+  background-color: #f8cafc;
+  color: #3e0d49;
+  cursor: not-allowed;
 }
 
 /* END QUIZ */
