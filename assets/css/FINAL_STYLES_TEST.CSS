@@ -139,13 +139,15 @@ li {
 /*Hero CSS -----------------------------------------------------------------------------------*/
 .hero {
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  
+  background-position: center center;
   height: 50vh;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .mainPages_hero {
@@ -154,6 +156,7 @@ li {
 
 #prox_hero {
   background: url("../pictures/proximity_hero.svg");
+  width: 100%;
 }
 
 #rep_hero {
@@ -210,6 +213,10 @@ footer h1 {
   font-size: 1.3em;
 }
 
+.highlight {
+  color: #f8cafc;
+}
+
 footer > div {
   display: flex;
   justify-content: space-between;
@@ -256,6 +263,12 @@ footer a:hover {
     margin-top: 50px;
   }
 
+  #repEx {
+    margin-top: 10px;
+    max-height: 250px;
+    flex: 1;
+  }
+
   .Lfloat,
   .Rfloat {
     width: 300px;
@@ -291,6 +304,9 @@ this is just the smallest the footer can be without looking too weird*/
 
   .content {
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .burger {
@@ -409,7 +425,7 @@ nav {
 
 nav {
   margin: 0px;
-  background-color: green;
+  background: #3e0d49;
   color: white;
 }
 
@@ -418,13 +434,50 @@ nav > section {
     width: 1440px;
     margin: auto;
     border: 1px solid black; */
-  position: relative;
-  top: -2px;
-  display: flex;
+    position: relative;
+    top: -2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3e0d49;
+    margin: 0px;
+}
+
+#links {
+  display:flex;
+  width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #3e0d49;
-  margin: 0px;
+}
+
+#mobile_btn {
+  display: none;
+}
+#web_btn {
+  display: none;
+}
+
+@media (max-width:920px) {
+  #links {
+    display: none;
+  }
+  #mobile_btn {
+  
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+@media (min-width: 920px) {
+  #m {
+    display: none;
+  }
+  #web_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 nav > section button {
@@ -470,30 +523,41 @@ button:hover a {
 #dropdown {
   background-color: #791d8f;
   display: none;
-  width: 100vw;
+  width: 100%;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .dropcont {
   background-color: #791d8f;
   z-index: 99;
-
-  width: 50%;
-  margin: 0px 0px 0px 10%;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#mobileDrop {
+  background-color: #791d8f;
+  z-index: 99;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .navlinks {
   display: flex;
   flex-direction: column;
-  margin: 30px 0px;
-  padding-left: 20%;
 }
 .navlinks a {
   width: 125px;
   margin: 2px 0px;
 }
 
-.navlinks a:hover {
+.navlinks > a:hover {
   color: #c3f73a;
   font-weight: 900;
 }
