@@ -22,6 +22,7 @@ body {
   background-color: #791d8f;
   width: 100%;
   height: 250px;
+  z-index: 5;
 }
 
 .logo {
@@ -528,6 +529,7 @@ button:hover a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 98;
 }
 .dropcont {
   background-color: #791d8f;
@@ -539,7 +541,7 @@ button:hover a {
   align-items: center;
 }
 #mobileDrop {
-  background-color: #791d8f;
+  background-color: green;
   z-index: 99;
   padding-left: 20px;
   padding-right: 20px;
