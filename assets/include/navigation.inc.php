@@ -68,6 +68,7 @@
                             <a href="proximityQuiz.php">Proximity Quiz</a>
                         </section>
                     </section>
+                    </section>
                 </div>
             </div>
         </nav>

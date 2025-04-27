@@ -1,0 +1,24 @@
+/* Bodhi Woll, this is css for quiz test. When finalized, it will be combined to styles. */
+/* Do not add code here */
+
+.question {
+  background: #efefef;
+  border-radius: 1rem;
+  padding: 15px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Inter;
+}
+h2 {
+  font-family: Inter;
+}
+body {
+  font-family: inter;
+}
+#warning {
+  color: red;
+}
