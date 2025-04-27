@@ -22,6 +22,7 @@ body {
   background-color: #791d8f;
   width: 100%;
   height: 250px;
+  z-index: 5;
 }
 
 .logo {
@@ -54,7 +55,8 @@ body {
   float: left;
   width: 450px;
   height: 300px;
-  margin-right: 100px;
+ margin: 30px;
+ margin-left: 0;
 }
 
 .topic {
@@ -76,14 +78,16 @@ body {
   float: right;
   width: 450px;
   height: 300px;
-  margin-left: 100px;
+  margin: 30px;
+  margin-right: 0;
 }
 
 .content,
 .reverseContent {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .content p,
@@ -98,7 +102,7 @@ html {
 main {
   margin: auto 25vw;
   line-height: 1.6;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -107,7 +111,8 @@ main {
 main img {
   margin: 0;
   justify-self: center;
-  width: 70vw;
+  max-width: 70vw;
+  flex: 1;
   object-fit: contain;
 }
 
@@ -138,9 +143,15 @@ li {
 /*Hero CSS -----------------------------------------------------------------------------------*/
 .hero {
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
- 
+  background-size: contain;
+  width: 100%;
+  background-position: center center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .mainPages_hero {
@@ -149,6 +160,7 @@ li {
 
 #prox_hero {
   background: url("../pictures/proximity_hero.svg");
+  width: 100%;
 }
 
 #rep_hero {
@@ -174,6 +186,71 @@ li {
   color: #ffffff;
   font-size: 10vw;
   align-self: center;
+  background-color: #ffffff00;
+}
+
+figure{
+  display: inline-block;
+  border-radius: 8px;
+  height: fit-content;
+  position: relative;
+  text-align: center;
+  transition: transform 0.4s ease;
+  /* border: 1px solid black; */
+}
+
+figcaption{
+  position: absolute;
+  opacity: 0;
+  bottom: -100%;
+  background: purple;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  transition: bottom 0.4s ease, opacity 0.4s ease;
+  font-size: 1em;
+}
+
+figure:hover{
+  transform: scale(1.05);
+}
+
+a img{
+  border-radius: 8px;
+}
+
+figure:hover figcaption{
+  bottom: 0;
+  opacity: 1;
+}
+
+/* index CSS----------------------------------------------------------------------------------------- */
+
+#index_page .content, #index_page .reverseContent{
+  display: flex;
+  text-indent: 2em;
+}
+
+#index_page div{
+  height: 50vh;
+  justify-content: center;
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+#index_page img{
+  margin: 0;
+}
+
+#index_page figure:nth-child(1){
+  margin: auto;
+  margin-right: 50px;
+}
+
+#index_page figure:nth-child(2){
+  margin: auto;
+  margin-left: 50px;
 }
 
 /*Proximity CSS --------------------------------------------------------------------------------------*/
@@ -186,15 +263,33 @@ li {
   text-align: start;
 }
 
-#prox_page img, #rep_page img, #gb_page img, #contrast_page img, #alignment_page img {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
+#prox_page img, #gb_page img, #contrast_page img, #alignment_page img {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
   margin: 20px 0px;
   height: 65vh;
+}
+
+/* Repetition CSS-------------------------------------------------------------------------------------- */
+#rep_page img{
+  height: 65vh;
+  margin: auto;
+}
+
+#rep_page p{
+  text-indent: 0.5in;
+  margin-bottom: 40px;
+}
+
+#rep_page #repEx {
+  display: block;
+  width: 316px;
+  border: 1px solid black;
+  margin: 30px;
 }
 
 /*Footer CSS-------------------------------------------------------------------------------------------*/
 footer {
   width: 100%;
-  margin: 0px;
+  margin-top: 30px;
   padding-top: 10px;
   background-color: #791d8f;
   font-size: 0.8em;
@@ -202,6 +297,10 @@ footer {
 
 footer h1 {
   font-size: 1.3em;
+}
+
+.highlight {
+  color: #f8cafc;
 }
 
 footer > div {
@@ -238,7 +337,7 @@ footer a:hover {
 /*tablet screens*/
 @media screen and (min-width: 900px) and (max-width: 1500px) {
   main {
-    margin: auto 115px;
+    margin: auto 15vw;
   }
 
   .CRAP,
@@ -250,12 +349,18 @@ footer a:hover {
     margin-top: 50px;
   }
 
+  /* #repEx {
+    margin-top: 10px;
+    max-height: 250px;
+    flex: 1;
+  } */
+
   .Lfloat,
   .Rfloat {
-    width: 300px;
-    height: 200px;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 400px;
+    height: auto;
+    /* margin-top: auto;
+    margin-bottom: auto; */
   }
 }
 
@@ -285,6 +390,9 @@ this is just the smallest the footer can be without looking too weird*/
 
   .content {
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .burger {
@@ -336,13 +444,58 @@ this is just the smallest the footer can be without looking too weird*/
     float: none;
     margin: 30px auto;
     width: 300px;
-    height: 200px;
+    height: auto;
+    /* border: 1px solid black; */
+  }
+
+  #index_page figure:nth-child(1), #index_page figure:nth-child(2){
+    display: inline-block;
+    position: relative;
+    left: 4%;
+    /* border: 1px solid black;  */
+    margin: 10px auto;
+    margin-bottom: 100px;
+    margin-right: auto;
+  }
+
+  #index_page .Lfloat, #index_page .Rfloat{
+    float:inline-start;
+    margin: auto;
+  }
+
+  #index_page p{
+    text-indent: 0;
   }
 
   .topic {
     padding-top: 140px;
   }
 
+  #index_page p{
+    text-align: center;
+  }
+
+  #rep_page p{
+    text-align: center;
+    text-indent: 0;
+  }
+
+    /* #rep_hero{
+      background-size: contain;
+    }
+
+    #alignment_hero{
+      background-size: contain;
+    } */
+
+  #rep_page h2{
+    text-align: center;
+  }
+
+  #rep_page img{
+    height: auto;
+  }
+  
   /*Footer CSS*/
   footer > div {
     flex-direction: column;
@@ -409,7 +562,11 @@ nav {
 
 nav {
   margin: 0px;
+<<<<<<< HEAD
   background-color: #3e0d49;
+=======
+  background: #3e0d49;
+>>>>>>> 230cbb762ed83a7d00248df09ae7803c84dcc9cc
   color: white;
 }
 
@@ -418,13 +575,50 @@ nav > section {
     width: 1440px;
     margin: auto;
     border: 1px solid black; */
-  position: relative;
-  top: -2px;
-  display: flex;
+    position: relative;
+    top: -2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3e0d49;
+    margin: 0px;
+}
+
+#links {
+  display:flex;
+  width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #3e0d49;
-  margin: 0px;
+}
+
+#mobile_btn {
+  display: none;
+}
+#web_btn {
+  display: none;
+}
+
+@media (max-width:920px) {
+  #links {
+    display: none;
+  }
+  #mobile_btn {
+  
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+@media (min-width: 920px) {
+  #m {
+    display: none;
+  }
+  #web_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 nav > section button {
@@ -472,29 +666,44 @@ button:hover a {
   display: none;
   width: 100%;
   position: absolute;
+<<<<<<< HEAD
   z-index: 100;
+=======
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 98;
+>>>>>>> 230cbb762ed83a7d00248df09ae7803c84dcc9cc
 }
 .dropcont {
   background-color: #791d8f;
   z-index: 99;
-
-  width: 50%;
-  margin: 0px 0px 0px 10%;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#mobileDrop {
+  background-color: green;
+  z-index: 99;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .navlinks {
   display: flex;
   flex-direction: column;
-  margin: 30px 0px;
-  padding-left: 20%;
 }
 .navlinks a {
   width: 125px;
   margin: 2px 0px;
 }
 
-.navlinks a:hover {
+.navlinks > a:hover {
   color: #c3f73a;
   font-weight: 900;
 }
@@ -565,6 +774,12 @@ button:hover a {
 #submitAnswer:hover {
   background-color: #c3f73a;
   color: black;
+}
+
+#submitAnswer:disabled {
+  background-color: #f8cafc;
+  color: #3e0d49;
+  cursor: not-allowed;
 }
 
 /* END QUIZ */

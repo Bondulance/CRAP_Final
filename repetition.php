@@ -1,56 +1,66 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/FINAL_STYLES_TEXT.css">
-    <script src="assets/js/script.js" defer></script>
-    <title>Repetition</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/FINAL_STYLES_TEST.css">
+        <script src="assets/js/script.js" defer></script>
+        <title>Repetition</title>
+    </head>
 
-<body>
-    <header>
-        <?php
-        $pageTitle = 'Repetition';
-        include('./assets/include/navigation.inc.php');
-        ?>
-        <button class="burger">
-            <img src="assets/pictures/menuHamburger.svg">
-        </button>
+    <body>
+        <header>
+            //php
+             <button class="burger">
+                <img src="assets/pictures/menuHamburger.svg">
+            </button>
 
-        <section id="#rep_hero" class="hero">
+            <section id="#rep_hero" class="hero">
+                <h1 class="title">REPETITION</h1>
+            </section>
+        </header> -->
+<?php
+    $pageTitle = 'Repetition';
+    include('./assets/include/navigation.inc.php');
+?> 
+        <section id="rep_hero" class="hero">
             <h1 class="title">REPETITION</h1>
+            <!--make part of bg-->
+            <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
-    </header>
+        </header>
 
-    <main class="a_page" id="rep_page">
-        <div class="content" id="leftAlign">
-            <p>
-                Repetition is the principle of consistency within the design. Like contrast, repetition also involves
-                using fonts, visual elements, and colors throughout the website and ensuring that these elements are
-                consistent. This reinforces the website making it more recognizable and memorable for users. Repetition,
-                besides supporting the overall design, helps to make the website recognizable and memorable to the user.
-                Through the repetition of prevailing design elements, designers may attain unity and harmony, thus leading
-                to an enhanced user experience and a stronger website identity.
-            </p>
-            <img src="assets/pictures/repetition_example.svg" alt="repetition example" class="Rfloat" id="repEx">
-        </div>
-        <div class="content" id="leftAlign">
-            <p>
-                The purpose of Repetition is to establish brand identity, improve the user experience, build trust with
-                the user, and enhance navigation through the web. Repetition establishes brand identity by providing
-                consistency within the design, providing familiar colors, logos, and typography throughout the site.
-                Having a sense of consistency allows the user to remember the content and brand. Moreover, repetition
-                creates a sense of guidance for users, allowing them to navigate through the website improving overall
-                experience and makes it easier to find things that they are looking for. This holds particularly for
-                sites with much content, as repetition makes it possible for information to be presented in a way
-                that is easy to understand. For instance, regular use of headings, font, and whitespace enables users
-                to rapidly scan the page and find the information they are looking for. Having good use of repetition
-                can make it convenient for users to explore the content on the page.
-            </p>
-        </div>
+
+        <main class="a_page" id="rep_page">
+        <h2> What is Repetition?</h2>
+            <div class="content" id="leftAlign">
+               
+                <p>
+                    Repetition is the principle of consistency within the design. Like contrast, repetition also involves 
+                    using fonts, visual elements, and colors throughout the website and ensuring that these elements are 
+                    consistent. This reinforces the website making it more recognizable and memorable for users. Repetition, 
+                    besides supporting the overall design, helps to make the website recognizable and memorable to the user. 
+                    Through the repetition of prevailing design elements, designers may attain unity and harmony, thus leading 
+                    to an enhanced user experience and a stronger website identity.
+                </p>
+                <img src="assets/pictures/repetition_example.svg" alt="repetition example" class="Rfloat" id="repEx">
+            </div>
+            <div class="content" id="leftAlign">
+                <p>
+                    The purpose of Repetition is to establish brand identity, improve the user experience, build trust with 
+                    the user, and enhance navigation through the web. Repetition establishes brand identity by providing 
+                    consistency within the design, providing familiar colors, logos, and typography throughout the site. 
+                    Having a sense of consistency allows the user to remember the content and brand. Moreover, repetition 
+                    creates a sense of guidance for users, allowing them to navigate through the website improving overall 
+                    experience and makes it easier to find things that they are looking for. This holds particularly for 
+                    sites with much content, as repetition makes it possible for information to be presented in a way 
+                    that is easy to understand. For instance, regular use of headings, font, and whitespace enables users 
+                    to rapidly scan the page and find the information they are looking for. Having good use of repetition 
+                    can make it convenient for users to explore the content on the page.
+                </p>
+            </div>
 
         <div class="content">
             <p>
