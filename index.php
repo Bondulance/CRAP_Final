@@ -16,9 +16,7 @@
         $pageTitle = 'Homepage';
         include('./assets/include/navigation.inc.php');
         ?>
-        <button class="burger">
-            <img src="assets/pictures/menuHamburger.svg">
-        </button>
+
 
         <div class="under">
             <img src="assets/pictures/home_hero.svg" alt="logo" class="logo">

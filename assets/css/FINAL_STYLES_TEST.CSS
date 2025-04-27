@@ -330,9 +330,25 @@ footer a:hover {
   justify-self: center;
 }
 
-.burger {
+#burger {
   display: none;
+  width: 50px;
+  height: 50px;
+  background:none;
+  border: none;
+  cursor: pointer;
+  
 }
+
+#header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3e0d49;
+  padding: 0px 10px;
+}
+
+
 
 /*tablet screens*/
 @media screen and (min-width: 900px) and (max-width: 1500px) {
@@ -533,13 +549,9 @@ nav body {
   font-size: 16px;
 }
 
-@media (max-width: 610px) {
-    header h1 {
-      background-color: #c3f73a;
-    }
-}
 
-header h1 {
+
+header h1{
   /* width: 1440px;
     text-align: center;
     margin: auto;
@@ -556,17 +568,13 @@ header h1 {
 
 header h1,
 nav {
-  width: 100vw;
+  width: 100%;
   margin: 0px;
 }
 
 nav {
   margin: 0px;
-<<<<<<< HEAD
   background-color: #3e0d49;
-=======
-  background: #3e0d49;
->>>>>>> 230cbb762ed83a7d00248df09ae7803c84dcc9cc
   color: white;
 }
 
@@ -603,10 +611,19 @@ nav > section {
     display: none;
   }
   #mobile_btn {
-  
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #burger {
+    display: flex;
+  }
+  #header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e0d49;
+    padding: 0px 10px;
   }
 }
 
@@ -618,6 +635,12 @@ nav > section {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+} 
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 18px;
   }
 }
 
@@ -666,14 +689,7 @@ button:hover a {
   display: none;
   width: 100%;
   position: absolute;
-<<<<<<< HEAD
   z-index: 100;
-=======
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 98;
->>>>>>> 230cbb762ed83a7d00248df09ae7803c84dcc9cc
 }
 .dropcont {
   background-color: #791d8f;
@@ -685,7 +701,7 @@ button:hover a {
   align-items: center;
 }
 #mobileDrop {
-  background-color: green;
+  background-color: #791d8f;
   z-index: 99;
   padding-left: 20px;
   padding-right: 20px;

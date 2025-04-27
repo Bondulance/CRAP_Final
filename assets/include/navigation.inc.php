@@ -15,9 +15,17 @@
 
 <body>
     <header>
-        <a href="./index.php">
-            <h1>CRAP PRINCIPLES</h1>
-        </a>
+        <div id="header_container">
+
+            <a href="./index.php">
+                <h1>CRAP PRINCIPLES</h1>
+            </a>
+            <button id="burger" type="button" onclick="navButtonToggle()">
+                <img src="assets/pictures/menuHamburger.svg" alt="hamburger menu">
+            </button>
+
+        </div>
+
 
         <nav>
             <section>
@@ -33,7 +41,7 @@
                     <a href="proximity.php">Proximity</a>
                     <a href="goodBad.php">Good vs Bad</a>
                 </div>
-                
+
                 <button id="web_btn" onclick="navButtonToggle()" class="arrow"><a href="#">Quizzes</a><img src="assets/pictures/arrowDown_white.svg"></button>
             </section>
             <div id="dropdown">
@@ -46,7 +54,7 @@
                         </p>
                     </section> -->
                     <section id="mobileDrop">
-                    <!-- <section class="navlinks">
+                        <!-- <section class="navlinks">
                         <a id="m" href="contrast.php">Contrast</a>
                         <a id="m"  href="repetition.php">Repetition</a>
                         <a id="m"  href="alignment.php">Alignment</a>
