@@ -48,6 +48,7 @@
                 <img src="assets/pictures/repetition_example.svg" alt="repetition example" class="Rfloat" id="repEx">
             </div>
             <div class="content" id="leftAlign">
+                <h2>The Purpose of Repition</h2>
                 <p>
                     The purpose of Repetition is to establish brand identity, improve the user experience, build trust with 
                     the user, and enhance navigation through the web. Repetition establishes brand identity by providing 
@@ -87,6 +88,7 @@
         <img src="assets/pictures/repetition_good.svg" alt="Repetition used right">
 
         <div class="content">
+            <h2>Balancing Repetition</h2>
             <p>
                 Although having Repetition is good for the context of the website, being too repetitive would cause users to
                 find the page bland or slightly boring. Keeping in mind that having a consistent website is important but
