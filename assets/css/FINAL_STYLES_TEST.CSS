@@ -160,7 +160,7 @@ li {
 }
 
 #cont_hero {
-  background: url("assets/pictures/contrast_hero.svg");
+  background: url("../pictures/contrast_hero.svg");
   
 }
 
@@ -380,6 +380,12 @@ nav body {
   font-size: 16px;
 }
 
+@media (max-width: 610px) {
+    header h1 {
+      background-color: #c3f73a;
+    }
+}
+
 header h1 {
   /* width: 1440px;
     text-align: center;
@@ -389,7 +395,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   height: 10vh;
-  background-color: green;
+  background-color: #3e0d49;
   font-size: 2em;
   color: white;
   padding: 15px 0px;
@@ -403,7 +409,7 @@ nav {
 
 nav {
   margin: 0px;
-  background-color: green;
+  background-color: #3e0d49;
   color: white;
 }
 
@@ -464,8 +470,9 @@ button:hover a {
 #dropdown {
   background-color: #791d8f;
   display: none;
-  width: 100vw;
+  width: 100%;
   position: absolute;
+  z-index: 100;
 }
 .dropcont {
   background-color: #791d8f;

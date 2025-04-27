@@ -15,7 +15,10 @@
 
 <body>
     <header>
-        <h1>CRAP PRINCIPLES</h1>
+        <a href="./index.php">
+            <h1>CRAP PRINCIPLES</h1>
+        </a>
+
         <nav>
             <section>
                 <!-- <a href="./Contrast.html">Contrast</a>
