@@ -2,13 +2,13 @@
     $pageTitle = 'Proximity';
     include('./assets/include/navigation.inc.php');
 ?> 
+        
+        </header>
         <section id="prox_hero" class="hero">
             <h1 class="title">PROXIMITY</h1>
             <!--make part of bg-->
             <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
-        </header>
-        
         <main class="a_page" id="prox_page">
             <h2>What is Proximity?</h2>
             <p>
@@ -53,8 +53,35 @@
             </p>
         </main>
 
-<!-- php -->
-<?php
-require_once("./assets/include/footer.inc.php");
-
-?>
+        <!-- php -->
+        <!-- <footer>
+            <div class="footer_links">
+                <h1><a href="#">CRAP PRINCIPLES</a></h1> Link to homepage
+                <p><a href="#">Contrast</a></p>
+                <p><a href="#">Repetition</a></p>
+                <p><a href="#">Allignment</a></p>
+                <p><a href="#">Proximity</a></p>
+                <div class="quiz_section">
+                    <div class="quiz_head">
+                        <p><a href="#">Quizzes</a></p>
+                        <button onclick="buttonToggle()" class="footer_arrow"><img src="assets/pictures/arrowDown_white.svg"></button>
+                    </div>
+                    <div id="q">
+                        <p><a href="#">Contrast Quiz</a></p>
+                        <p><a href="#">Repetition Quiz</a></p>
+                        <p><a href="#">Allignment Quiz</a></p>
+                        <p><a href="#">Proximity Quiz</a></p>
+                        <p><a href="#">Good vs Bad</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_end">
+                <p>Copyright &copy; 2025</p>
+            </div>
+        </footer> -->
+        <?php
+            include('./assets/include/footer.inc.php');
+        ?>
+    </body>
+    
+</html>

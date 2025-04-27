@@ -31,8 +31,12 @@
             <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
         </header>
+
+
         <main class="a_page" id="rep_page">
+        <h2> What is Repetition?</h2>
             <div class="content" id="leftAlign">
+               
                 <p>
                     Repetition is the principle of consistency within the design. Like contrast, repetition also involves 
                     using fonts, visual elements, and colors throughout the website and ensuring that these elements are 
