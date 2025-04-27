@@ -31,7 +31,6 @@
                     <a href="goodBad.php">Good vs Bad</a>
                 </div>
                 
-                <button id="mobile_btn" onclick="navButtonToggle()" class="arrow"><a  href="#">Pages</a><img src="assets/pictures/arrowDown_white.svg"></button>
                 <button id="web_btn" onclick="navButtonToggle()" class="arrow"><a href="#">Quizzes</a><img src="assets/pictures/arrowDown_white.svg"></button>
             </section>
             <div id="dropdown">
@@ -44,18 +43,19 @@
                         </p>
                     </section> -->
                     <section id="mobileDrop">
-                    <section class="navlinks">
+                    <!-- <section class="navlinks">
                         <a id="m" href="contrast.php">Contrast</a>
                         <a id="m"  href="repetition.php">Repetition</a>
                         <a id="m"  href="alignment.php">Alignment</a>
                         <a id="m"  href="proximity.php">Proximity</a>
                         <a id="m"  href="goodBad.php">Good vs Bad</a>
-                    </section>
-                    <section class="navlinks">
-                        <a href="contrastQuiz.php">Contrast Quiz</a>
-                        <a href="repetitionQuiz.php">Repetition Quiz</a>
-                        <a href="alignmentQuiz.php">Alignment Quiz</a>
-                        <a href="proximityQuiz.php">Proximity Quiz</a>
+                    </section> -->
+                        <section class="navlinks">
+                            <a href="contrastQuiz.php">Contrast Quiz</a>
+                            <a href="repetitionQuiz.php">Repetition Quiz</a>
+                            <a href="alignmentQuiz.php">Alignment Quiz</a>
+                            <a href="proximityQuiz.php">Proximity Quiz</a>
+                        </section>
                     </section>
                     </section>
                 </div>

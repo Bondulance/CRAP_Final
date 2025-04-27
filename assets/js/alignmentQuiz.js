@@ -61,8 +61,36 @@ function trackerDecrement() {
 }
 
 
-btn.addEventListener("click", function () {
+function trackerDecrement() {
+  let q1Answered = false;
+  let q2Answered = false;
+  let q3Answered = false;
+
+  q1Inputs.forEach((input) => {
+    if (input.checked) q1Answered = true;
+  });
+  q2Inputs.forEach((input) => {
+    if (input.checked) q2Answered = true;
+  });
+  q3Inputs.forEach((input) => {
+    if (input.checked) q3Answered = true;
+  });
+
+  if (q1Answered && q2Answered && q3Answered) {
+    console.log("Everything answered");
+    counter--;
+    if (counter <= 0) {
+      btn.disabled = true;
+    }
+    console.log(counter);
+  }
+  tracker.textContent = "Tries: " + counter;
   
+}
+
+
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
 
   let q1Answered = false;
   let q2Answered = false;
