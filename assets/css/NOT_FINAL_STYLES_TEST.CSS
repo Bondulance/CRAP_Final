@@ -107,8 +107,7 @@ main {
 main img {
   margin: 0;
   justify-self: center;
-  max-width: 70vw;
-  flex: 1;
+  width: 70vw;
   object-fit: contain;
 }
 
@@ -139,15 +138,9 @@ li {
 /*Hero CSS -----------------------------------------------------------------------------------*/
 .hero {
   background-repeat: no-repeat;
-  background-size: cover;
-  
-  background-position: center center;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
+  background-size: 100%;
+  background-position: center;
+ 
 }
 
 .mainPages_hero {
@@ -156,7 +149,6 @@ li {
 
 #prox_hero {
   background: url("../pictures/proximity_hero.svg");
-  width: 100%;
 }
 
 #rep_hero {
@@ -182,7 +174,6 @@ li {
   color: #ffffff;
   font-size: 10vw;
   align-self: center;
-  background-color: #ffffff00;
 }
 
 /*Proximity CSS --------------------------------------------------------------------------------------*/
@@ -203,7 +194,7 @@ li {
 /*Footer CSS-------------------------------------------------------------------------------------------*/
 footer {
   width: 100%;
-  margin-top: 30px;
+  margin: 0px;
   padding-top: 10px;
   background-color: #791d8f;
   font-size: 0.8em;
@@ -211,10 +202,6 @@ footer {
 
 footer h1 {
   font-size: 1.3em;
-}
-
-.highlight {
-  color: #f8cafc;
 }
 
 footer > div {
@@ -263,12 +250,6 @@ footer a:hover {
     margin-top: 50px;
   }
 
-  #repEx {
-    margin-top: 10px;
-    max-height: 250px;
-    flex: 1;
-  }
-
   .Lfloat,
   .Rfloat {
     width: 300px;
@@ -304,9 +285,6 @@ this is just the smallest the footer can be without looking too weird*/
 
   .content {
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .burger {
@@ -402,6 +380,12 @@ nav body {
   font-size: 16px;
 }
 
+@media (max-width: 610px) {
+    header h1 {
+      background-color: #c3f73a;
+    }
+}
+
 header h1 {
   /* width: 1440px;
     text-align: center;
@@ -425,7 +409,7 @@ nav {
 
 nav {
   margin: 0px;
-  background: #3e0d49;
+  background-color: #3e0d49;
   color: white;
 }
 
@@ -434,50 +418,13 @@ nav > section {
     width: 1440px;
     margin: auto;
     border: 1px solid black; */
-    position: relative;
-    top: -2px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #3e0d49;
-    margin: 0px;
-}
-
-#links {
-  display:flex;
-  width: 100%;
+  position: relative;
+  top: -2px;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-#mobile_btn {
-  display: none;
-}
-#web_btn {
-  display: none;
-}
-
-@media (max-width:920px) {
-  #links {
-    display: none;
-  }
-  #mobile_btn {
-  
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-}
-
-@media (min-width: 920px) {
-  #m {
-    display: none;
-  }
-  #web_btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  background-color: #3e0d49;
+  margin: 0px;
 }
 
 nav > section button {
@@ -525,39 +472,29 @@ button:hover a {
   display: none;
   width: 100%;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 100;
 }
 .dropcont {
   background-color: #791d8f;
   z-index: 99;
-  padding-left: 20px;
-  padding-right: 20px;
+
+  width: 50%;
+  margin: 0px 0px 0px 10%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-#mobileDrop {
-  background-color: #791d8f;
-  z-index: 99;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .navlinks {
   display: flex;
   flex-direction: column;
+  margin: 30px 0px;
+  padding-left: 20%;
 }
 .navlinks a {
   width: 125px;
   margin: 2px 0px;
 }
 
-.navlinks > a:hover {
+.navlinks a:hover {
   color: #c3f73a;
   font-weight: 900;
 }
@@ -628,12 +565,6 @@ button:hover a {
 #submitAnswer:hover {
   background-color: #c3f73a;
   color: black;
-}
-
-#submitAnswer:disabled {
-  background-color: #f8cafc;
-  color: #3e0d49;
-  cursor: not-allowed;
 }
 
 /* END QUIZ */
