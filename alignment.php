@@ -28,6 +28,8 @@
             <img src="assets/pictures/alignment_good.svg" alt="Good alignment example">
             <p>The three dark rectangles are center aligned, have equal spacing between themselves, and are all the same size. The design is very even, and makes for an inoffensive, common, but good look and balance to the webpage. </p>
             <p>Going down to our second Layer, while they are not the same size, they take up the same width, are center aligned, and provide some interesting contrast in the page design.</p>
+            
+            <h2>Tips for Aligning</h2>
             <p>Lastly, the best ways to solve the challenge of alignment. Of course, designing will take a lot of the hard workload off, but when it comes to your CSS, invest some time into learning flexbox and grid. Flexbox is a fantastic tool that helps with alignment, offering utility for making columns, rows, and centering with ease. Grid operates slightly differently, but still makes creating columns and rows quite easy.</p>
 
 
