@@ -12,12 +12,12 @@ include('./assets/include/navigation.inc.php');
 
 <main id="contrast_page" class="a_page">
 
-    <h2>What is Contrast?</h2>
+    <h2>What is contrast?</h2>
     <p>Contrast is the difference in design between elements often close to each other. Most commonly it refers to color, like black text on a white background, but the concept applies to any element of design. If you want something to pop out at a user, do something different compared to the rest of the page whether it be color, font, texture of an image (smooth and rounded with gradients vs. blocky and with defined edges), even word choice can be an effective contrast as a storytelling device.
     </p>
     <img src="assets/pictures/contrast_badSite.png" alt="Big ugly website">
     <p>Here is a really bad site which breaks many of the principles.</p>
-    <h2>Why do we use Contrast?</h2>
+    <h2>Why do we use contrast?</h2>
     <p>The purpose of contrast is to make things pop out to your user. Web pages often have a lot of content, and contrast can work along with your navigation elements to allow the user's eyes to easily flow to and from each piece of information in the order you want. Often the user’s eyes will be drawn to the biggest element with the largest amount of contrast first, a large text font with dark colors against a pastel background.
     </p>
     <img src="assets/pictures/contrast_good.svg" alt="a good example of contrast example">

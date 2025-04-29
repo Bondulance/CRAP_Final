@@ -20,9 +20,9 @@
             <h2>How Do We Use It?</h2>
             <p>
                 In the example below, you can see that all the elements are spaced evenly from each other, 
-                however, it is difficult to see which text goes with which picture by sight alone. While you 
-                can pray that your users would assume the text above goes with the image below, you should 
-                absolutely not count on that. It’s much safer to assume users will mess up using everything on 
+                however, it is difficult to intuit which block of text goes with which picture by sight alone. While you 
+                can pray that your users would assume that the text above goes with the image below, you should 
+                absolutely not count on that. It’s much safer to assume users will misunderstand everything on 
                 your site unless it’s explicitly stated or shown.
             </p>
             <img src="assets/pictures/proximity_none.svg" alt="All elements are evenly spaced out">

@@ -38,27 +38,27 @@
             <div class="content" id="leftAlign">
                
                 <p>
-                    Repetition is the principle of consistency within the design. Like contrast, repetition also involves 
+                    Repetition is the principle of consistency within a design. Like contrast, repetition also involves 
                     using fonts, visual elements, and colors throughout the website and ensuring that these elements are 
                     consistent. This reinforces the website making it more recognizable and memorable for users. Repetition, 
                     besides supporting the overall design, helps to make the website recognizable and memorable to the user. 
-                    Through the repetition of prevailing design elements, designers may attain unity and harmony, thus leading 
+                    Through the repetition of prevailing design elements, designers may display the pure essence of unity and harmony, thus leading 
                     to an enhanced user experience and a stronger website identity.
                 </p>
                 <img src="assets/pictures/repetition_example.svg" alt="repetition example" class="Rfloat" id="repEx">
             </div>
             <div class="content" id="leftAlign">
-                <h2>The Purpose of Repition</h2>
+                <h2>The Purpose of Repetition</h2>
                 <p>
-                    The purpose of Repetition is to establish brand identity, improve the user experience, build trust with 
+                    The purpose of repetition is to establish brand identity, improve the user experience, build trust with 
                     the user, and enhance navigation through the web. Repetition establishes brand identity by providing 
                     consistency within the design, providing familiar colors, logos, and typography throughout the site. 
                     Having a sense of consistency allows the user to remember the content and brand. Moreover, repetition 
                     creates a sense of guidance for users, allowing them to navigate through the website improving overall 
-                    experience and makes it easier to find things that they are looking for. This holds particularly for 
-                    sites with much content, as repetition makes it possible for information to be presented in a way 
+                    experience and making it easier to find things that they are looking for. This holds particularly for 
+                    sites with a lot of content, as repetition makes it possible for information to be presented in a way 
                     that is easy to understand. For instance, regular use of headings, font, and whitespace enables users 
-                    to rapidly scan the page and find the information they are looking for. Having good use of repetition 
+                    to rapidly scan the page and find the information they are looking for. Using repetition effectively 
                     can make it convenient for users to explore the content on the page.
                 </p>
             </div>
@@ -67,10 +67,10 @@
             <p>
                 While repetition is vital in making a cohesive and user-friendly design, there must be a balance. Too much
                 repetition makes a site look dull or uninspired and thus produces a dull or boring user experience. Designers
-                should be cautious when they use repetition so that the users will not become bored with too much similarity.
-                One such case is when they apply the same color scheme and font for every item on the page. It will lead to a
-                bland and uninteresting design. But designers should apply repetition wisely, combining it with contrast and
-                hierarchy amongst other design principles to create a lively and interesting layout.
+                should be cautious when they use repetition lest users become bored.
+                An example of this is applying the same color scheme and font for every item on the page. It will lead to a
+                bland and uninteresting design. But if designers apply repetition wisely, combining it with contrast and
+                hierarchy amongst other design principles. They can create a lively and interesting layout.
             </p>
         </div>
 
@@ -90,12 +90,12 @@
         <div class="content">
             <h2>Balancing Repetition</h2>
             <p>
-                Although having Repetition is good for the context of the website, being too repetitive would cause users to
-                find the page bland or slightly boring. Keeping in mind that having a consistent website is important but
-                repeating can get tiring. In short, repetition is a powerful design element that enhances consistency,
+                Although having repetition is good for the context of the website, being too repetitive will cause users to
+                find the page bland or slightly boring. It is good to keep in mind that having a consistent website is important but
+                repeating elements can get tiring. In short, repetition is a powerful design element that enhances consistency,
                 reinforces brand identity, and improves user experience. By repeating primary design elements, designers
                 can create a consistent and memorable website that is easy to use and visually appealing. However, repetition
-                must be executed wisely and not excessively, as excessive repetition can render the design dull and unengaging.
+                must be implemented wisely and not excessively, as excessive repetition can render the design dull and unengaging.
                 When done correctly, repetition can turn a website into a welcoming and visually appealing page that leaves an
                 indelible mark on viewers.
             </p>

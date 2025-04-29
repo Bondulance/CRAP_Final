@@ -10,8 +10,8 @@
         </header>
         
         <main class="a_page" id="alignment_page">
-            <h2>What is Alignment?</h2>
-            <p>The principle of Alignment describes the structure and balance of the webpage. Alignment ensures that the organization of all the elements in the webpage remain consistent and in a flawless form. Without alignment, your webpage will look messy, and responsive development is near impossible.</p>
+            <h2>What is alignment?</h2>
+            <p>The principle of alignment describes the structure and balance of the webpage. Alignment ensures that the organization of all the elements in the webpage remain consistent and in a flawless form. Without alignment, your webpage will look messy, and responsive development is near impossible.</p>
             <h2>What can it be used for?</h2>
             <p>While alignment might seem like a one trick pony, it has many hidden benefits. Alignment can give a sense of direction on the webpage, helping users navigate much easier. It helps get rid of clutter and in turn organizes your data, making your page more consistent. To dive deeper, there are two main types of alignment; edge alignment and center alignment.</p>
             <p>Edge alignment is used to naturally position all elements based off of their outer edges. For example, two square images with a different width, but on the same row, would be edge aligned. </p>
@@ -29,7 +29,7 @@
             <p>The three dark rectangles are center aligned, have equal spacing between themselves, and are all the same size. The design is very even, and makes for an inoffensive, common, but good look and balance to the webpage. </p>
             <p>Going down to our second Layer, while they are not the same size, they take up the same width, are center aligned, and provide some interesting contrast in the page design.</p>
             
-            <h2>Tips for Aligning</h2>
+            <h2>Tips for aligning</h2>
             <p>Lastly, the best ways to solve the challenge of alignment. Of course, designing will take a lot of the hard workload off, but when it comes to your CSS, invest some time into learning flexbox and grid. Flexbox is a fantastic tool that helps with alignment, offering utility for making columns, rows, and centering with ease. Grid operates slightly differently, but still makes creating columns and rows quite easy.</p>
 
 
