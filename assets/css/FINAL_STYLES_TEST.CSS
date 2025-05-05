@@ -132,10 +132,6 @@ li {
   padding: 10px;
 }
 
-/* main section{
-    margin-left: 50px;
-} */
-
 /*Hero CSS -----------------------------------------------------------------------------------*/
 .hero {
   border: 1px solid black;
@@ -428,10 +424,6 @@ nav body {
 
 
 header h1{
-  /* width: 1440px;
-    text-align: center;
-    margin: auto;
-    text-emphasis: bold; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -455,10 +447,6 @@ nav {
 }
 
 nav > section {
-  /* display: flex;
-    width: 1440px;
-    margin: auto;
-    border: 1px solid black; */
     position: relative;
     top: -2px;
     display: flex;
@@ -605,18 +593,6 @@ button:hover a {
   width: 250px;
   min-width: 249px;
 }
-
-/* .arrow {
-    display: inline;
-    position: relative;
-    top: 1px;
-    right: 70px;
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    padding: 0px;
-    height: 30px;
-    width: 30px;
-} */
 
 /* END NAV */
 
