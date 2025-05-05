@@ -5,8 +5,6 @@ include('./assets/include/navigation.inc.php');
 
 <section id="cont_hero" class="hero">
     <h1 class="title">CONTRAST</h1>
-    <!--make part of bg-->
-    <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
 </section>
 </header>
 

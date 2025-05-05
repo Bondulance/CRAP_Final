@@ -1,34 +1,10 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/FINAL_STYLES_TEST.css">
-        <script src="assets/js/script.js" defer></script>
-        <title>Repetition</title>
-    </head>
-
-    <body>
-        <header>
-            //php
-             <button class="burger">
-                <img src="assets/pictures/menuHamburger.svg">
-            </button>
-
-            <section id="#rep_hero" class="hero">
-                <h1 class="title">REPETITION</h1>
-            </section>
-        </header> -->
 <?php
     $pageTitle = 'Repetition | CRAP PRINCIPLES';
     include('./assets/include/navigation.inc.php');
 ?> 
         <section id="rep_hero" class="hero">
             <h1 class="title">REPETITION</h1>
-            <!--make part of bg-->
-            <!-- <img class="mainPages_hero" src="assets/pictures/proximity_hero.svg" alt="two sets of boxes closer to their partners than the whole group"> -->
         </section>
         </header>
 
@@ -36,7 +12,6 @@
         <main class="a_page" id="rep_page">
         <h2> What is Repetition?</h2>
             <div class="content" id="leftAlign">
-               
                 <p>
                     Repetition is the principle of consistency within a design. Like contrast, repetition also involves 
                     using fonts, visual elements, and colors throughout the website and ensuring that these elements are 

@@ -4,7 +4,6 @@
 ?> 
             <section id="gb_hero" class="hero">
                 <h1 class="title">GOOD VS BAD</h1>
-                <!-- <img class="mainPages_hero" src="assets/pictures/goodBad_hero.svg" alt="one set of boxes neatly aligned next to another set that looks scattered"> -->
             </section>
         </header>
         
@@ -60,31 +59,6 @@
                 they can be when designing a website.
             </p>
         </main>
-        <!-- <footer>
-            <div class="footer_links">
-                <h1><a href="#">CRAP PRINCIPLES</a></h1>
-                <p><a href="#">Contrast</a></p>
-                <p><a href="#">Repetition</a></p>
-                <p><a href="#">Allignment</a></p>
-                <p><a href="#">Proximity</a></p>
-                <div class="quiz_section">
-                    <div class="quiz_head">
-                        <p><a href="#">Quizzes</a></p>
-                        <button onclick="buttonToggle()" class="footer_arrow"><img src="assets/pictures/arrowDown_white.svg"></button>
-                    </div>
-                    <div id="q">
-                        <p><a href="#">Contrast Quiz</a></p>
-                        <p><a href="#">Repetition Quiz</a></p>
-                        <p><a href="#">Allignment Quiz</a></p>
-                        <p><a href="#">Proximity Quiz</a></p>
-                        <p><a href="#">Good vs Bad</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer_end">
-                <p>Copyright &copy; 2025</p>
-            </div>
-        </footer> -->
         <?php
             include('./assets/include/footer.inc.php');
         ?>
