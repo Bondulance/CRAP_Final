@@ -1,7 +1,7 @@
 <!--This is my test page for quiz functionality. Please do not add code to this page-->
 
 <?php
-$pageTitle = 'Alignment Quiz';
+$pageTitle = 'Proximity Quiz | CRAP PRINCIPLES';
 include('./assets/include/navigation.inc.php');
 ?>
 </header>

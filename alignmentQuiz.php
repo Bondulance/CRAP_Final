@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Alignment Quiz';
+$pageTitle = 'Alignment Quiz | CRAP PRINCIPLES';
 include('./assets/include/navigation.inc.php');
 ?>
 </header>

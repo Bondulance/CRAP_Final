@@ -13,7 +13,7 @@
 <body>
     <header>
         <?php
-        $pageTitle = 'Homepage';
+        $pageTitle = 'Homepage | CRAP PRINCIPLES';
         include('./assets/include/navigation.inc.php');
         ?>
 

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Homepage';
+$pageTitle = 'Contrast | CRAP PRINCIPLES';
 include('./assets/include/navigation.inc.php');
 ?>
 

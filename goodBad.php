@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = 'Homepage';
+    $pageTitle = 'Good Vs Bad | CRAP PRINCIPLES';
     include('./assets/include/navigation.inc.php');
 ?> 
             <section id="gb_hero" class="hero">
@@ -42,7 +42,7 @@
                 School of Art webpage (<a href="https://www.art.yale.edu/">https://www.art.yale.edu/</a>).
             </p>
             <h2>What makes Yale Art bad?</h2>
-            <img class="Lfloat" src="assets/pictures/goodBad_yaleArt.png" alt="Screenshot of Yale Art website">
+            
             <p>
                 When it comes to Contrast, you can certainly say there is a lot. Sadly in this case, there is far too much. From 
                 nearly every color in the rainbow, as well as nearly every ounce of text on the page in a different style, it is 
@@ -54,6 +54,7 @@
                 focus on one. Lastly, with proximity, it is with the case of alignment, where everything is placed very sporadically,
                 and it is just difficult to really see what is what.
             </p>
+            <img class="Lfloat" src="assets/pictures/goodBad_yaleArt.png" alt="Screenshot of Yale Art website">
             <p>
                 Now that we've looked at both examples, we hope this helps display the utility of the CRAP principles, and show how impactful 
                 they can be when designing a website.

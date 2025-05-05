@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = 'Homepage';
+    $pageTitle = 'Alignment | CRAP PRINCIPLES';
     include('./assets/include/navigation.inc.php');
 ?>
             <section id="alignment_hero" class="hero">

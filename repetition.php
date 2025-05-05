@@ -22,7 +22,7 @@
             </section>
         </header> -->
 <?php
-    $pageTitle = 'Repetition';
+    $pageTitle = 'Repetition | CRAP PRINCIPLES';
     include('./assets/include/navigation.inc.php');
 ?> 
         <section id="rep_hero" class="hero">

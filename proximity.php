@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = 'Proximity';
+    $pageTitle = 'Proximity | CRAP PRINCIPLES';
     include('./assets/include/navigation.inc.php');
 ?> 
         <section id="prox_hero" class="hero">

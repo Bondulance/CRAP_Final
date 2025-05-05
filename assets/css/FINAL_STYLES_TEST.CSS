@@ -54,7 +54,6 @@ body {
   float: left;
   width: 450px;
   height: 300px;
-  margin-right: 100px;
 }
 
 .topic {
@@ -76,14 +75,15 @@ body {
   float: right;
   width: 450px;
   height: 300px;
-  margin-left: 100px;
 }
 
 .content,
 .reverseContent {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .content p,
