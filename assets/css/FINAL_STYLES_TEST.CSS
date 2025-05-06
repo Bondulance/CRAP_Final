@@ -99,7 +99,7 @@ html {
 main {
   margin: auto 25vw;
   line-height: 1.6;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -277,7 +277,7 @@ figure:hover figcaption{
   margin: auto;
 }
 
-#rep_page main{
+#rep_page{
   display: block;
 }
 
