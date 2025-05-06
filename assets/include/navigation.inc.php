@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/FINAL_STYLES_TEST.css">
+    <link rel="stylesheet" href="./assets/css/FINAL_STYLES_TEST.CSS">
     <script src="./assets/js/nav.js" defer></script>
     <script src="./assets/js/footer.js" defer></script>
     <script src="./assets/js/proximityQuiz.js" defer></script>
@@ -62,12 +62,18 @@
                         <a id="m"  href="goodBad.php">Good vs Bad</a>
                     </section> -->
                         <section class="navlinks">
+                            <div id="mobilelinks">
+                                <a href="contrast.php">Contrast</a>
+                                <a href="repetition.php">Repetition</a>
+                                <a href="alignment.php">Alignment</a>
+                                <a href="proximity.php">Proximity</a>
+                                <a href="goodBad.php">Good vs Bad</a>
+                            </div>
                             <a href="contrastQuiz.php">Contrast Quiz</a>
                             <a href="repetitionQuiz.php">Repetition Quiz</a>
                             <a href="alignmentQuiz.php">Alignment Quiz</a>
                             <a href="proximityQuiz.php">Proximity Quiz</a>
                         </section>
-                    </section>
                     </section>
                 </div>
             </div>

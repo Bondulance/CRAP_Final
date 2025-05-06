@@ -231,12 +231,11 @@ figure:hover figcaption{
 
 #index_page .content, #index_page .reverseContent{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-indent: 2em;
 }
 
 #index_page div{
-  height: 35vh;
   justify-content: center;
   margin: 0;
   /* border: 1px solid black; */
@@ -359,6 +358,9 @@ footer a:hover {
   padding: 0px 10px;
 }
 
+#mobilelinks {
+  display: none;
+}
 
 
 /*tablet screens*/
@@ -428,6 +430,11 @@ this is just the smallest the footer can be without looking too weird*/
     height: 75px;
     border: none;
     background-color: inherit;
+  }
+
+  #mobilelinks {
+    display: flex;
+    flex-direction: column;
   }
 
   .under {

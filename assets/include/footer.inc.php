@@ -16,7 +16,6 @@
                         <p><a href="repetitionQuiz.php">Repetition Quiz</a></p>
                         <p><a href="alignmentQuiz.php">Alignment Quiz</a></p>
                         <p><a href="proximityQuiz.php">Proximity Quiz</a></p>
-                        <p><a href="goodBad.php">Good vs Bad</a></p>
                     </div>
                 </div>
             </div>
