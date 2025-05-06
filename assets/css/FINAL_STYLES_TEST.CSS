@@ -231,6 +231,7 @@ figure:hover figcaption{
 
 #index_page .content, #index_page .reverseContent{
   display: flex;
+  flex-direction: row;
   text-indent: 2em;
 }
 
