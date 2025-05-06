@@ -79,11 +79,12 @@ body {
 
 .content,
 .reverseContent {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .content p,
@@ -136,7 +137,8 @@ li {
 .hero {
   border: 1px solid black;
   background-color: #a38ba8 !important;
-  width: 100vw;
+  background-size: contain;
+  width: 100%;
   height: 55vh;
   display: flex;
   justify-content: center;
@@ -188,6 +190,71 @@ li {
   z-index: 1;
 }
 
+/* Figure CSS --------------------------------------------------------------------------------------- */
+figure{
+  display: inline-block;
+  border-radius: 8px;
+  height: fit-content;
+  position: relative;
+  text-align: center;
+  transition: transform 0.4s ease;
+  /* border: 1px solid black; */
+}
+
+figcaption{
+  position: absolute;
+  opacity: 0;
+  bottom: -100%;
+  background: purple;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  transition: bottom 0.4s ease, opacity 0.4s ease;
+  font-size: 1em;
+}
+
+figure:hover{
+  transform: scale(1.05);
+}
+
+a img{
+  border-radius: 8px;
+}
+
+figure:hover figcaption{
+  bottom: 0;
+  opacity: 1;
+}
+
+/* index CSS----------------------------------------------------------------------------------------- */
+
+#index_page .content, #index_page .reverseContent{
+  display: flex;
+  text-indent: 2em;
+}
+
+#index_page div{
+  height: 50vh;
+  justify-content: center;
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+#index_page img{
+  margin: 0;
+}
+
+#index_page figure:nth-child(1){
+  margin: auto;
+  margin-right: 50px;
+}
+
+#index_page figure:nth-child(2){
+  margin: auto;
+  margin-left: 50px;
+}
+
 /*Proximity CSS --------------------------------------------------------------------------------------*/
 .a_page h2 {
   margin-top: 60px;
@@ -198,9 +265,27 @@ li {
   text-align: start;
 }
 
-#prox_page img, #rep_page img, #gb_page img, #contrast_page img, #alignment_page img {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
+#prox_page img, #gb_page img, #contrast_page img, #alignment_page img {  /*CHANGE IMG SIZE/MARGINS AS NEEDED. just putting here bc*/ 
   margin: 20px 0px;
   height: 65vh;
+}
+
+/* Repitition CSS-------------------------------------------------------------------------------------- */
+#rep_page img{
+  height: 65vh;
+  margin: auto;
+}
+
+#rep_page p{
+  text-indent: 0.5in;
+  margin-bottom: 40px;
+}
+
+#rep_page #repEx {
+  display: block;
+  width: 316px;
+  border: 1px solid black;
+  margin: 30px;
 }
 
 /*Footer CSS-------------------------------------------------------------------------------------------*/
@@ -270,7 +355,7 @@ footer a:hover {
 /*tablet screens*/
 @media screen and (min-width: 900px) and (max-width: 1500px) {
   main {
-    margin: auto 115px;
+    margin: auto 15vw;
   }
 
   .CRAP,
@@ -408,6 +493,50 @@ this is just the smallest the footer can be without looking too weird*/
   #q {
     display: none;
     margin-left: 20px;
+  }
+
+  #index_page figure:nth-child(1), #index_page figure:nth-child(2){
+    display: inline-block;
+    position: relative;
+    left: 4%;
+    /* border: 1px solid black;  */
+    margin: 10px auto;
+    margin-bottom: 100px;
+    margin-right: auto;
+  }
+
+  #index_page .Lfloat, #index_page .Rfloat{
+    float:inline-start;
+    margin: auto;
+  }
+
+  #index_page p{
+    text-indent: 0;
+  }
+
+  #index_page p{
+    text-align: center;
+  }
+
+  #rep_page p{
+    text-align: center;
+    text-indent: 0;
+  }
+
+    /* #rep_hero{
+      background-size: contain;
+    }
+
+    #alignment_hero{
+      background-size: contain;
+    } */
+
+  #rep_page h2{
+    text-align: center;
+  }
+
+  #rep_page img{
+    height: auto;
   }
 }
 
