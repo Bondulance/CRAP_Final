@@ -273,8 +273,16 @@ figure:hover figcaption{
 
 /* Repitition CSS-------------------------------------------------------------------------------------- */
 #rep_page img{
-  height: 65vh;
+  height: 65%;
   margin: auto;
+}
+
+#rep_page main{
+  display: block;
+}
+
+#rep_page main Img{
+  width: 100%;
 }
 
 #rep_page p{
